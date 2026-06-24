@@ -1,0 +1,82 @@
+
+
+/* ================================== */
+
+/* 2026 janheder.cz */
+
+/* ================================== */
+
+:root {
+    --white: #FFFFFF;
+    --light: #F8F6F2;
+    --light-blue: #F2F7FB;
+    --dark: #415845;
+    --darker: #0B0E15;
+    --red: #C21734;
+
+    --lime: #9AA820;
+    --lime-dark: #899616;
+
+    --yellow: #FDED5D;
+    --yellow-l: #FFF387;
+    --yellow-dark: #FFCC00;
+
+    --gold: #C6A56B;
+
+    --gray: #6D6C79;
+    --green: #61AE24;
+    --border: #B6BCCC;
+
+    --blue: #217FE7;
+    --blue-l: #CEE5FF;
+    --navy: #0A364D;
+
+    --pink: #E71E80;
+    --pink-l: #FFCEE6;
+    --pink-dark: #AD1F64;
+
+    --aqua: #4FEDCC;
+    --aqua-l: #B1F4E6;
+    --aqua-dark: #0EA384;
+
+    --white-rgb: 255 255 255;
+    --black-rgb: 0, 0, 0;
+
+    --font-main: "Afacad", sans-serif;
+    --font-headings: "Barlow", sans-serif;
+
+    --border-radius: 0px;
+    --border-radius-pill: 9999px;
+    --border-radius-round: 10px;
+
+}
+
+
+@font-face {
+    font-family: 'Afacad';
+    src: url('../fonts/afacad/Afacad-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/barlow/Barlow-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    display: swap;
+}
+
+
+
+html {
+    background-color: var(--white);
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: var(--font-main);
+    color: var(--dark);
+}
