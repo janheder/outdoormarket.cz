@@ -80,3 +80,8 @@ body {
     font-family: var(--font-main);
     color: var(--dark);
 }
+
+.top-navigation-bar{
+    background-color: var(--dark);
+    border: 0;
+}
