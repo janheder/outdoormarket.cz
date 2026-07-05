@@ -77,10 +77,12 @@ html {
 body {
     max-width: 100%;
     margin: 0 auto;
-    font-family: var(--font-main);
+    font-family: var(--font-main) !important;
     color: var(--dark);
 }
-
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: var(--font-headings) !important;
+}
 .top-navigation-bar{
     background-color: var(--dark);
     border: 0;
