@@ -405,6 +405,7 @@ h4.homepage-group-title,
 
 .newsletter .newsletter-header h3 {
     color: var(--darker);
+    text-transform: uppercase;
 }
 
 .newsletter form .form-group label.whole-width,
