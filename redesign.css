@@ -60,14 +60,54 @@
     display: swap;
 }
 
+
 @font-face {
     font-family: 'Barlow';
-    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-VariableFont_wght.woff2') format('woff2');
-    font-weight: 100 900;
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
-    display: swap;
+    font-display: swap;
 }
 
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 html {
@@ -82,6 +122,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
 }
 .top-navigation-bar{
     background-color: var(--dark);
