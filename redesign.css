@@ -54,7 +54,7 @@
 
 @font-face {
     font-family: 'Afacad';
-    src: url('../fonts/afacad/Afacad-VariableFont_wght.woff2') format('woff2');
+    src: url('https://outdoormarket-cz.pages.dev/fonts/afacad/Afacad-VariableFont_wght.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
     display: swap;
@@ -62,7 +62,7 @@
 
 @font-face {
     font-family: 'Barlow';
-    src: url('../fonts/barlow/Barlow-VariableFont_wght.woff2') format('woff2');
+    src: url('https://outdoormarket-cz.pages.dev/fonts/barlow/Barlow-VariableFont_wght.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
     display: swap;
