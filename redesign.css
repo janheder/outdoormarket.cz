@@ -119,6 +119,10 @@ body {
     color: var(--darker);
 }
 
+.external-fonts-loaded, .blank-mode, body, html, .external-fonts-loaded body, body.blank-mode, .product-appendix, .empty-content-404 h1, .dropdown-menu > li > a, .header-top .btn.cart-count .cart-price, .news-item-widget h5, .header-top .oblibeneBtn em, .navigation-buttons > a[data-target="cart"] i {
+    font-family: var(--font-main) !important;
+}
+
 h1,
 h2,
 h3,
