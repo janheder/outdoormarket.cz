@@ -119,7 +119,19 @@ body {
     color: var(--darker);
 }
 
-.external-fonts-loaded, .blank-mode, body, html, .external-fonts-loaded body, body.blank-mode, .product-appendix, .empty-content-404 h1, .dropdown-menu > li > a, .header-top .btn.cart-count .cart-price, .news-item-widget h5, .header-top .oblibeneBtn em, .navigation-buttons > a[data-target="cart"] i {
+.external-fonts-loaded,
+.blank-mode,
+body,
+html,
+.external-fonts-loaded body,
+body.blank-mode,
+.product-appendix,
+.empty-content-404 h1,
+.dropdown-menu>li>a,
+.header-top .btn.cart-count .cart-price,
+.news-item-widget h5,
+.header-top .oblibeneBtn em,
+.navigation-buttons>a[data-target="cart"] i {
     font-family: var(--font-main) !important;
 }
 
@@ -434,4 +446,114 @@ h4.homepage-group-title,
     height: auto;
     width: 100%;
     max-height: 36px;
+}
+
+.custom-footer__banner6991 {
+    display: flex;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.custom-footer__banner6991 .banner {
+    width: 100%;
+}
+
+.cta-section {
+    display: flex;
+    width: 100%;
+    background: var(--dark);
+    padding: 30px 0;
+}
+
+.cta-section__content {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cta-section__title {
+    color: white;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    max-width: 580px;
+}
+
+.cta-section__wrap {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#footer .cta-section .cta-section__item {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: var(--border-radius);
+    color: white;
+    min-height: 58px;
+
+}
+
+.cta-section__img-wrap {
+    background: white;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.cta-section__img-wrap img {
+    height: 14px;
+    width: auto;
+}
+
+.cta-section__text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+    line-height: 1.2;
+}
+
+.cta-section__text small {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.custom-footer__instagram {
+    width: 100% !important;
+    text-align: center;
+}
+
+.custom-footer__instagram h3.pageElement__heading span {
+    font-size: 34px;
+}
+
+.instagram-widget {
+    max-width: 100%;
+}
+
+.instagram-widget {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+.instagram-widget>a {
+    display: flex;
+    width: 100% !important;
+    aspect-ratio: 1/1;
+}
+
+.instagram-widget>a img {
+    object-fit: cover;
+}
+
+.instagram-follow-btn {
+    display: none;
 }
