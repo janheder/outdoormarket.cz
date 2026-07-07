@@ -180,7 +180,7 @@ h6,
 
 @media (min-width: 1440px) {
     .container {
-        width: 1380px;
+        max-width: 1380px;
     }
 }
 
@@ -1030,4 +1030,50 @@ h4.homepage-group-title,
 }
 .site-msg a {
     font-weight: 500;
+}
+
+.content-wrapper.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 10px;
+    }
+    .footer-rows {
+    width: 100%;
+        max-width: 1400px;
+    padding: 0 10px;
+}
+.homepage-blog-wrapper{
+    padding: 60px 0;
+}
+.homepage-blog-wrapper .h4.homepage-group-title{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.homepage-blog-wrapper .news-item a .title, .homepage-blog-wrapper .read-article{
+    font-family: var(--font-headings);
+    text-transform: uppercase;
+    color: var(--darker);
+    text-decoration: none;
+    font-weight: 600;
+}
+.homepage-blog-wrapper .news-item a .title{
+    font-size: 20px;
+}
+.homepage-blog-wrapper .read-article{
+    color: var(--green);
+        font-size: 16px;
+}
+.news-item{
+    margin:0;
+}
+.news-item .text .description{
+            font-size: 16px;
+            line-height: 1.5;
+}
+.news-item .image{
+    border-radius: var(--border-radius);
+    overflow: hidden;
 }
