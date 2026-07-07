@@ -780,8 +780,14 @@ h4.homepage-group-title,
         color: var(--darker);
         background: transparent;
         border: 0;
-        min-width: 80px;
+        min-width: 54px;
         width: auto;
+        font-size: 0;
+        padding: 0;
+        background-image: url("https://outdoormarket-cz.pages.dev/icons/search.svg");
+        background-position: center;
+        background-size: 17px;
+        background-repeat: no-repeat;
     }
 
     #header .search-form .form-control {
@@ -795,4 +801,43 @@ h4.homepage-group-title,
         color: var(--gray);
         font-size: 17px !important;
     }
+}
+@media screen and (min-width: 768px) {
+    #header .search-form .form-control {
+        box-shadow: 3px 3px 0px #E3E3E3;
+    }
+    
+}
+
+.subscribe-form::before {
+    content: none;
+}
+
+.subscribe-form .btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 0;
+    height: 48px;
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-headings) !important;
+    border-radius: var(--border-radius);
+    background: var(--darker);
+    border: 0;
+    min-width: 0;
+    padding: 0 18px;
+}
+
+
+.newsletter .newsletter-header h3 {
+    text-transform: uppercase !important;
+    font-size: 26px;
+}
+
+.newsletter .newsletter-header::after {
+    content: "Odebírejte aktuální informace, oznámení o slevách a novinky na Váš email.";
+    font-size: 17px;
+    color: var(--gray);
 }
