@@ -117,6 +117,7 @@ body {
     margin: 0 auto;
     font-family: var(--font-main) !important;
     color: var(--darker);
+    overflow-x: hidden;
 }
 
 .external-fonts-loaded,
@@ -802,11 +803,12 @@ h4.homepage-group-title,
         font-size: 17px !important;
     }
 }
+
 @media screen and (min-width: 768px) {
     #header .search-form .form-control {
         box-shadow: 3px 3px 0px #E3E3E3;
     }
-    
+
 }
 
 .subscribe-form::before {
@@ -840,4 +842,96 @@ h4.homepage-group-title,
     content: "Odebírejte aktuální informace, oznámení o slevách a novinky na Váš email.";
     font-size: 17px;
     color: var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+    #header .search-form .btn:hover {
+        background-color: transparent !important;
+    }
+
+}
+
+#formSearchForm>fieldset>input.query-input.form-control.search-input.js-search-input {
+    font-size: 17px !important;
+    color: var(--darker);
+}
+
+@media (min-width: 768px) {
+    .custom-footer>div:not(.contact) {
+        padding-right: 0px;
+    }
+}
+
+.custom-footer>div {
+    padding: 0;
+}
+
+.custom-footer .custom-footer__instagram {
+    order: -50;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    border-top: 1px solid var(--border);
+    padding: 60px 0;
+}
+
+.custom-footer__instagram::before {
+    content: "";
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background: var(--white);
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    border-radius: var(--border-radius-round);
+}
+
+.instagram-widget {
+    margin: 0;
+}
+
+.custom-footer .custom-footer__banner6991 {
+    position: relative;
+    z-index: 1;
+    order: -40;
+}
+
+.custom-footer .custom-footer__banner6991::before {
+    content: "";
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background: var(--dark);
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    border-radius: var(--border-radius-round);
+}
+
+@media (min-width: 1200px) {
+    .custom-footer {
+        padding-top: 0;
+    }
+}
+
+#footer {
+    padding-top: 0px;
+}
+
+#footer .custom-footer .newsletter {
+    order: -30;
+    padding: 40px;
+    margin: 60px 0;
+}
+
+#footer .custom-footer .newsletter-header h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
 }
