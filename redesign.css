@@ -736,7 +736,7 @@ h4.homepage-group-title,
 .container.breadcrumbs-wrapper {
     width: 100%;
     background-color: transparent;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .breadcrumbs {
@@ -995,4 +995,39 @@ h4.homepage-group-title,
 
 .fav-cat ul {
     margin: 0;
+}
+
+.footer-bottom, .copyright, #signature a{
+    font-size: 16px;
+}
+
+.product-top {
+    margin-bottom: 0;
+}
+.p-detail-inner-header h1, .p-detail-inner-header .h1 {
+    font-size: 34px;
+}
+#sai--code__product_related>div, #sai--code__product_cross_sell>div {
+    border: 0 !important;
+    margin: 0;
+}
+#sai--code__product_related{
+  display: flex;
+    width: 100%;  
+}
+.type-product .benefitBanner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.carousel-control{
+    background: var(--darker);
+    color: white;
+    border-radius: var(--border-radius);
+    left: 10px;
+}
+.carousel-control.right{
+    right: 10px;
+}
+.site-msg a {
+    font-weight: 500;
 }
