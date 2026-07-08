@@ -1577,3 +1577,20 @@ body:not(.type-index) .products-block>div {
         visibility: visible;
     }
 }
+
+.dkLabFavouriteProductDiv.onlyIcon {
+    top: -35px !important;
+    right: 10px !important;
+}
+.products-block.products .p .price strong, .products-block.products .p .price span{
+      font-family: var(--font-headings) !important;
+
+    font-weight: 600;
+}
+.products-block .p-bottom .p-tools .btn-primary, .products-block .p-bottom .p-tools .btn.add-to-cart-button{
+    transition: 0.2s ease box-shadow;
+}
+.products-block .p-bottom .p-tools .btn-primary:hover
+, .products-block .p-bottom .p-tools .btn.add-to-cart-button:hover{
+    box-shadow: 0px 0px 0px #E3E3E3;
+}
