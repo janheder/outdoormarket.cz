@@ -1702,13 +1702,17 @@ body:not(.type-index) .products-block>div {
     width: 480px;
     max-width: calc(100vw - 20px);
 }
+
 .slick-dotted.slick-slider {
     margin-bottom: 60px !important;
 }
+
 .slick-dots {
     bottom: -15px !important;
 }
-.slick-prev, .slick-next{
+
+.slick-prev,
+.slick-next {
     background: var(--dark);
     border-radius: var(--border-radius);
     height: 52px !important;
@@ -1717,38 +1721,46 @@ body:not(.type-index) .products-block>div {
     align-items: center;
     justify-content: center;
 }
+
 .slick-next {
     right: -50px !important;
 }
+
 .slick-prev {
     left: -50px !important;
 }
-.slick-prev:before, .slick-next:before{
+
+.slick-prev:before,
+.slick-next:before {
     position: relative;
     height: 22px !important;
-     width: 22px !important;
+    width: 22px !important;
 }
+
 .benefitBanner {
     gap: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.benefitBanner__link{
+
+.benefitBanner__link {
     gap: 18px;
 }
-.benefitBanner__item{
-        overflow: visible;
-        flex-basis: unset;
+
+.benefitBanner__item {
+    overflow: visible;
+    flex-basis: unset;
 }
-.benefitBanner__picture{
+
+.benefitBanner__picture {
     margin: 0;
     background: white;
     border: 1px solid var(--darker);
     border-radius: var(--border-radius);
     height: 66px;
     width: 66px;
-        max-width: 100%;
+    max-width: 100%;
     padding: 0;
     color: var(--darker);
     font-family: var(--font-headings) !important;
@@ -1763,66 +1775,205 @@ body:not(.type-index) .products-block>div {
     flex-basis: unset;
     overflow: visible;
 }
-.benefitBanner__picture img{
+
+.benefitBanner__picture img {
     height: 28px;
     width: 28px;
     object-fit: contain;
-    top :0;
+    top: 0;
 }
-h4.homepage-group-title, .h4.homepage-group-title{
+
+h4.homepage-group-title,
+.h4.homepage-group-title {
     margin-bottom: 30px;
 }
+
 #footer .footer-grid {
     grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
 
 }
-.footer__section.--contacts{
-grid-column: span 1.5;
+
+.footer__section.--contacts {
+    grid-column: span 1.5;
 }
-.footer__section.--contacts .footer-logo{
+
+.footer__section.--contacts .footer-logo {
     height: 52px;
 }
-.footer__section.--contacts .footer-logo img{
+
+.footer__section.--contacts .footer-logo img {
     mix-blend-mode: multiply;
     height: 100%;
 }
-.footer__section.--contacts .footer-socials{
+
+.footer__section.--contacts .footer-socials {
     margin-top: 30px;
     display: flex;
     gap: 15px;
-        align-items: center;
+    align-items: center;
 }
-.footer__section.--contacts .footer-socials__title{
+
+.footer__section.--contacts .footer-socials__title {
     font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
     font-weight: 600 !important;
     color: var(--darker);
-        font-size: 18px;
+    font-size: 18px;
 }
-#footer .footer__section.--contacts a.footer-socials__link{
+
+#footer .footer__section.--contacts a.footer-socials__link {
     height: 42px;
     width: 42px;
     background: white;
     border-radius: 50%;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-#footer .footer__section.--contacts a.footer-socials__link img{
+
+#footer .footer__section.--contacts a.footer-socials__link img {
     height: 18px;
 }
-#footer .footer__section.--contacts .footer-store{
+
+#footer .footer__section.--contacts .footer-store {
     background: white;
     padding: 0 18px;
     display: inline-flex;
     color: var(--darker);
     gap: 10px;
     margin-top: 30px;
-       border-radius: var(--border-radius);
-       height: 48px;
+    border-radius: var(--border-radius);
+    height: 48px;
     justify-content: center;
     align-items: center;
 }
-#footer .footer__section.--contacts .footer-store img{
+
+#footer .footer__section.--contacts .footer-store img {
     height: 20px;
+}
+
+.products-block .p .flags-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.products-block .p .flags-default .flag {
+    display: inline-block;
+    border-radius: var(--border-radius);
+    background: white !important;
+    color: var(--dark);
+    padding: 5px 10px;
+    font-weight: 500;
+    font-family: var(--font-headings) !important;
+    font-size: 12px;
+}
+
+.flag.flag-discount .difference-info {
+    display: none;
+}
+
+.flags-extra .flag.flag-discount {
+    width: 55px;
+    height: 55px;
+    font-weight: 500;
+    font-family: var(--font-headings) !important;
+    font-size: 15px;
+    background: var(--red);
+}
+
+.flags-extra .flag .price-save {
+    font-size: 15px;
+
+}
+
+.welcome-wrapper .hp-about .hp-about-content {
+    max-width: 520px;
+    justify-content: center;
+}
+
+.hp-about-content small {
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    color: var(--green);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hp-about-content h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.hp-about-content p {
+    line-height: 1.5;
+}
+
+.hp-about-content .hp-about-buttons {
+    display: flex;
+    gap: 20px !important;
+    margin-top: 20px;
+}
+
+.hp-about-content .hp-about-buttons .btn {
+    border: 0;
+    border-radius: 0;
+    height: 48px;
+    width: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-headings) !important;
+    border-radius: var(--border-radius);
+    background: var(--dark);
+    border: 0;
+    min-width: 0;
+    padding: 0 18px;
+    color: white;
+    text-decoration: none;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease all;
+}
+
+.hp-about-content .hp-about-buttons .btn:hover {
+    background: var(--green);
+}
+
+.hp-about-content .hp-about-buttons .btn.--white {
+    background: var(--white);
+    color: var(--darker);
+
+}
+
+.hp-about-content .hp-about-buttons .btn.--white:hover {
+    background: var(--dark);
+    color: white;
+}
+
+.fav-cat {
+    background: transparent;
+}
+
+.fav-cat::before {
+    background-color: var(--dark);
+    background-image: url("https://outdoormarket-cz.pages.dev/img/pattern-cat.svg");
+    background-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .header-top>div.search {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .header-top .compact-form {
+        width: 100%;
+    }
 }
