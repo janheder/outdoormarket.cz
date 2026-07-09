@@ -1227,36 +1227,36 @@ h4.homepage-group-title,
     right: 8px;
 }
 
-@media (min-width: 768px) {
-    .in-index .content {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .content .benefitBanner {
-        order: 10;
-    }
-
-    .content .fav-cat {
-        order: 40;
-    }
-
-    .content .homepage-products-heading-1 {
-        order: 20;
-    }
-
-    .content .homepage-products-1 {
-        order: 30;
-    }
-
-    .content .homepage-products-heading-2 {
-        order: 50;
-    }
-
-    .content .homepage-products-2 {
-        order: 60;
-    }
+.in-index .content {
+    display: flex;
+    flex-direction: column;
 }
+
+.in-index .content .benefitBanner {
+    order: 10;
+}
+
+.in-index .content .fav-cat {
+    order: 40;
+}
+
+.in-index .content .homepage-products-heading-1 {
+    order: 20;
+}
+
+.in-index .content .homepage-products-1 {
+    order: 30;
+}
+
+.in-index .content .homepage-products-heading-2 {
+    order: 50;
+}
+
+.in-index .content .homepage-products-2 {
+    order: 60;
+}
+
 
 .homepage-box.before-carousel+.fav-cat,
 .benefitBanner+.fav-cat,
@@ -1975,9 +1975,7 @@ h4.homepage-group-title,
     }
 }
 
-.cta-section {
-    padding: 30px 20px;
-}
+
 
 .benefitBanner__item {
     align-items: center;
@@ -2109,6 +2107,12 @@ h4.homepage-group-title,
     line-height: 1.4;
 }
 
+@media screen and (max-width: 1200px) {
+    .fav-cat {
+        padding: 60px 0;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .fav-cat {
         padding: 40px 0;
@@ -2151,4 +2155,177 @@ h4.homepage-group-title,
 
 .homepage-blog-wrapper .news-item:nth-child(4) {
     display: none !important;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .fav-cat::before {
+        border-radius: 0;
+    }
+
+}
+
+.site-msg.information {
+    width: 100%;
+}
+
+.homepage-blog-wrapper {
+
+    margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .slick-prev {
+        left: auto !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #footer .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #footer .footer-grid .footer__content ul {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links-icons {
+        padding: 15px 10px;
+    }
+
+    .footer-bottom,
+    {
+    padding-top: 10px;
+}
+}
+
+.container {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    #signature {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .czechLang {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top-navigation-bar {
+        background-color: var(--white);
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefitBanner__picture {
+        margin: 0;
+        background: transparent;
+        border: 0;
+        border-radius: var(--border-radius);
+        height: 100%;
+        width: 26px;
+        max-width: 100%;
+        padding: 0;
+        box-shadow: none;
+        flex-basis: unset;
+        align-self: center;
+    }
+
+    .benefitBanner__link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.benefitBanner__content {
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .benefitBanner {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding: 20px 0 !important;
+    }
+
+    .type-index .benefitBanner::before {
+        content: none;
+    }
+
+    .homepage-box.before-carousel::before {
+        content: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .benefitBanner__item {
+        margin-bottom: 0px;
+    }
+}
+
+.fav-cat {
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .fav-cat {
+        padding: 40px 0;
+    }
+}
+
+.footer-links-icons {
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .newsletterSection__formGroup {
+        width: 100%;
+        max-width: calc(100vw - 20px);
+    }
+
+    #newsletterSection h3 {
+        padding-bottom: 10px !important;
+    }
+
+    .newsletterSection__subTitle {
+        line-height: 1.1;
+    }
+}
+
+#footer .footer__section.--contacts .footer-store {
+    font-size: 16px;
 }
