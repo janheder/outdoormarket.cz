@@ -1702,3 +1702,127 @@ body:not(.type-index) .products-block>div {
     width: 480px;
     max-width: calc(100vw - 20px);
 }
+.slick-dotted.slick-slider {
+    margin-bottom: 60px !important;
+}
+.slick-dots {
+    bottom: -15px !important;
+}
+.slick-prev, .slick-next{
+    background: var(--dark);
+    border-radius: var(--border-radius);
+    height: 52px !important;
+    width: 40px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.slick-next {
+    right: -50px !important;
+}
+.slick-prev {
+    left: -50px !important;
+}
+.slick-prev:before, .slick-next:before{
+    position: relative;
+    height: 22px !important;
+     width: 22px !important;
+}
+.benefitBanner {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.benefitBanner__link{
+    gap: 18px;
+}
+.benefitBanner__item{
+        overflow: visible;
+        flex-basis: unset;
+}
+.benefitBanner__picture{
+    margin: 0;
+    background: white;
+    border: 1px solid var(--darker);
+    border-radius: var(--border-radius);
+    height: 66px;
+    width: 66px;
+        max-width: 100%;
+    padding: 0;
+    color: var(--darker);
+    font-family: var(--font-headings) !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1px;
+    box-shadow: 3px 3px 0px #E3E3E3;
+    flex-basis: unset;
+    overflow: visible;
+}
+.benefitBanner__picture img{
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    top :0;
+}
+h4.homepage-group-title, .h4.homepage-group-title{
+    margin-bottom: 30px;
+}
+#footer .footer-grid {
+    grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr));
+
+}
+.footer__section.--contacts{
+grid-column: span 1.5;
+}
+.footer__section.--contacts .footer-logo{
+    height: 52px;
+}
+.footer__section.--contacts .footer-logo img{
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+.footer__section.--contacts .footer-socials{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+        align-items: center;
+}
+.footer__section.--contacts .footer-socials__title{
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    color: var(--darker);
+        font-size: 18px;
+}
+#footer .footer__section.--contacts a.footer-socials__link{
+    height: 42px;
+    width: 42px;
+    background: white;
+    border-radius: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer__section.--contacts a.footer-socials__link img{
+    height: 18px;
+}
+#footer .footer__section.--contacts .footer-store{
+    background: white;
+    padding: 0 18px;
+    display: inline-flex;
+    color: var(--darker);
+    gap: 10px;
+    margin-top: 30px;
+       border-radius: var(--border-radius);
+       height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer__section.--contacts .footer-store img{
+    height: 20px;
+}
