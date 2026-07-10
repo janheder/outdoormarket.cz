@@ -2329,3 +2329,123 @@ h4.homepage-group-title,
 #footer .footer__section.--contacts .footer-store {
     font-size: 16px;
 }
+
+@media (min-width: 768px) {
+
+    #signature,
+    .copyright {
+        margin: 25px 0;
+    }
+}
+
+.footer-links-icons {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.footer-links-icons .footer-icons {
+    padding: 25px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 650px) {
+    #footer .footer__section.--contacts {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+
+    #footer .footer__section.--contacts .footer-store {
+        display: none;
+    }
+
+    .footer__section.--contacts .footer-socials {
+        margin: 0;
+    }
+
+    .footer__section.--contacts .footer-socials__title {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer .footer-grid {
+        padding: 0px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .newsletterSection__imgwrap {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .newsletterSection__subTitle {
+        display: none;
+    }
+
+    #newsletterSection h3.newsletterSection__title {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #newsletterSection {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .instagram-widget {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-gap: 10px;
+    }
+
+    .instagram-widget a:nth-child(1n+5) {
+        display: none !important;
+    }
+
+    .custom-footer__instagram h3.pageElement__heading span {
+        font-size: 28px;
+    }
+}
+
+.homepage-blog-wrapper .h4.homepage-group-title {
+    margin-bottom: 40px;
+}
+
+.homepage-blog-wrapper {
+    display: flex;
+    gap: 0 40px;
+}
+
+.homepage-blog-wrapper .h4.homepage-group-title {
+    width: 100%;
+}
+
+.news-item {
+    flex: 0 0 calc(50% - 20px);
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .homepage-blog-wrapper {
+        display: flex;
+        gap: 0 10px;
+    }
+
+    .news-item {
+        flex: 0 0 calc(50% - 5px);
+    }
+
+    .news-item .text .description {
+        display: none;
+    }
+
+    .homepage-blog-wrapper .read-article {
+        margin: 0;
+    }
+}
