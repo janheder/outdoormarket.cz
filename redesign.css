@@ -2756,6 +2756,53 @@ color: var(--darker);
     display: none !important;
 }
 
+@media (max-width: 767px) {
+    .homepage-blog-wrapper {
+        padding: 40px 0;
+    }
+    h4.homepage-group-title, .h4.homepage-group-title{
+        font-size: 28px;
+        margin-bottom: 0px !important;
+        text-align: center !important;
+    }
+        .news-item .text .description {
+        display: flex;
+        line-height: 1.2;
+        font-size: 15px;
+    }
+        .homepage-blog-wrapper .read-article {
+        margin-top: 15px;
+    }
+    .homepage-blog-wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+        .news-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
+.welcome-wrapper .hp-about {
+    gap: 20px;
+}
+@media (max-width: 1200px) {
+    .welcome-wrapper .hp-about {
+    flex-direction: column;
+    gap: 30px;
+}
+.welcome-wrapper .hp-about .hp-about-content {
+    max-width: 100%;
+    justify-content: center;
+}
+.welcimg-yes {
+
+    padding: 60px 0;
+}
+.hp-about-img{
+    display: none !important;
+}
+}
+
 
 .site-msg.information{
     width: calc(100vw - 20px);
