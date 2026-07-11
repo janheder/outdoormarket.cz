@@ -3162,3 +3162,9 @@ font-weight: 400;
 }
 
 
+@media screen and (min-width: 1440px) {
+     .id--16 #checkoutSidebar.fixed .next-step-back {
+        width: auto;
+        position: relative;
+    }
+}
