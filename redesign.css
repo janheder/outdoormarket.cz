@@ -3322,3 +3322,155 @@ h4.homepage-group-title,
         overflow-x: visible;
     }
 }
+
+@media (min-width: 768px) {
+    .top-navigation-bar .top-navigation-contacts {
+        display: none !important;
+    }
+
+    .header-top .top-navigation-contacts {
+        display: flex;
+    }
+
+    .header-top .top-navigation-contacts .project-email {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-top {
+        flex-wrap: nowrap;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    .header-top .site-name-wrapper {
+        order: 10;
+    }
+
+    .header-top .top-navigation-contacts {
+        order: 20;
+    }
+
+    .header-top .search {
+        order: 30;
+    }
+
+    .header-top .navigation-buttons {
+        order: 40;
+        flex-shrink: 0;
+        width: auto;
+        display: flex;
+        flex-grow: 0;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header-top>div {
+        flex-basis: auto;
+    }
+
+    .header-top>div.search {
+        flex-basis: auto;
+        max-width: 520px;
+    }
+}
+
+@media (min-width: 768px) {
+    #header .cart-count {
+        min-width: 1px;
+        flex-shrink: 0;
+        gap: 10px;
+    }
+}
+
+#header .cart-count {
+    height: 48px;
+    padding: 0 18px;
+    border-radius: var(--border-radius);
+}
+
+.header-top .btn.cart-count .cart-price {
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    font-family: var(--font-headings) !important;
+    font-weight: 500;
+}
+
+.header-top .btn.cart-count::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/cart.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-top .btn.cart-count i {
+    left: 22px;
+    top: auto;
+    bottom: 10px;
+    height: 14px;
+    width: 14px;
+    background: var(--darker);
+    border: 1px solid var(--green);
+    line-height: 1;
+    font-size: 10px;
+}
+
+#header .cart-count.full {
+    background: var(--green);
+    color: white;
+}
+
+.header-top .btn.cart-count.full::before {
+    filter: invert(1) brightness(5);
+}
+
+.header-top .btn.cart-count.full .cart-price {
+    color: white;
+}
+
+.benefitBanner.position--benefitProduct {
+    display: none;
+}
+
+.popis-nadpis,
+.extended-description h3 {
+    font-size: 24px;
+}
+
+.sai-ProductBox {
+    border-width: 0px;
+}
+
+.products-additional .product {
+    border: 0;
+}
+
+.products-related-header,
+#productsAlternative::before {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.p-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-info-wrapper .detail-parameters {
+    margin-top: 30px;
+}
+
+.p-info-wrapper .detail-parameters th,
+.color-variants-title {
+    font-size: 16px;
+    font-family: var(--font-headings) !important;
+    font-weight: 500 !important;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
