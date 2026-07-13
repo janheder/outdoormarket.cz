@@ -5015,3 +5015,104 @@ ol.cart-header li strong {
         line-height: 1.3;
     }
 }
+
+
+#checkoutSidebar .cart-content .order-summary .checkout-box ul li span a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#checkoutSidebar .cart-content .order-summary .checkout-box ul li .cellphone-inner::before {
+    display: flex;
+    content: "";
+    height: 18px;
+    width: 18px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/phone.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#checkoutSidebar .cart-content .order-summary .checkout-box ul li span.mail a::before {
+    display: flex;
+    content: "";
+    height: 18px;
+    width: 18px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/envelope.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ordering-process #checkoutSidebar .form-group.consents.consents-first {
+    padding-top: 10px;
+}
+
+.country-flags {
+    border: 1px solid var(--border);
+    height: 50px;
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 480px) {
+    .phone-combined-input {
+        max-width: 100%;
+    }
+}
+
+.phone-combined-input {
+    position: relative;
+}
+
+.ordering-process #checkoutContent .phone-combined-input input {
+    left: 110px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto !important;
+    max-width: 280px !important;
+}
+
+.shp-flag-label {
+    font-size: 16px;
+}
+
+.stay-in-touch {}
+
+.stay-in-touch #reg-info {
+    font-size: 15px;
+    text-transform: none;
+    color: var(--gray);
+}
+
+.in-krok-2 #checkoutSidebar .cart-items .recapitulation-single {
+    border: 0;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.in-krok-2 #checkoutSidebar .order-recapitulation {
+    display: none !important;
+}
+
+.in-krok-2 #checkoutSidebar .cart-items .recapitulation-single>span {
+    text-transform: uppercase;
+    color: var(--gray-dark);
+    font-size: 14px;
+}
+
+.in-krok-2 #checkoutSidebar .cart-items .recapitulation-single strong {
+    font-family: var(--font-headings) !important;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.in-krok-2 #checkoutSidebar .cart-items .recapitulation-single strong span {
+    font-weight: 500;
+}
+
+#checkoutSidebar .price-secondary {
+    padding-top: 0px;
+}
