@@ -9,6 +9,6 @@ function headerPhone() {
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
+/* document.addEventListener("DOMContentLoaded", () => { */
     headerPhone();  
-});
+/* }); */
