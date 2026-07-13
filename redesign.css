@@ -3599,94 +3599,100 @@ h4.homepage-group-title,
 .color-variant-image:hover {
     transform: none;
 }
+
 .in-kosik.ordering-process .cart-row>div.col-md-4 .cart-content.checkout-box-wrapper {
-   display: none;
+    display: none;
 }
-.in-kosik.ordering-process .cart-content.summary-wrapper{
+
+.in-kosik.ordering-process .cart-content.summary-wrapper {
     border: 0;
     padding: 0;
     background: transparent;
-    
+
 }
 
 @media screen and (min-width: 992px) {
-   .in-kosik.ordering-process  .extras-col:last-child > div {
+    .in-kosik.ordering-process .extras-col:last-child>div {
         margin: 0px;
- width: auto;
+        width: auto;
     }
 }
 
- .in-kosik.ordering-process  .extras-col .discount-coupon{
-     flex-grow: 0;
-       width: 520px !important;
-       max-width: 50% !important;
-       padding: 20px;
-       background: #FBFAF9;
-       flex-shrink: 0;
- }
-  .in-kosik.ordering-process .discount-coupon.otevreny form{
-     max-width: 100%;
- }
-   .in-kosik.ordering-process  .extras-col{
-       display: flex;
-       justify-content: space-between;
-       gap: 30px;
-       flex-wrap: nowrap;
-   }
-      .in-kosik.ordering-process  .extras-col .extras-wrap{
-flex-grow: 1;
-      }
-      .in-kosik.ordering-process  .extras-col .extra.delivery{
-          background: #F0F7EA;
-          padding: 30px;
-          margin: 0;
-                 border-radius: var(--border-radius);
-                  text-align: left;
-                  display: flex;
-                  gap: 20px;
-                  width: 100%;
-                  max-width: 100%;
-                  justify-content: center;
-                      height: 100%;
-      }
-      
-      .in-kosik.ordering-process .extras-col .extra.delivery span{
-          font-size: 16px;
-          margin: 0;
-          width: 100%;
-          color: var(--gray);
-      }
-      .in-kosik.ordering-process .extras-col .extra.delivery span::before{
-              font-size: 20px;
-              font-weight: 600;
-  content: "Doprava zdarma";
-  width: 100%;
-      font-family: var(--font-headings) !important;
-      color: var(--darker);
-      text-transform: uppercase;
-      padding-bottom: 5px;
-      }
-      
-      .in-kosik.ordering-process .extras-col .extra.delivery::before{
-          content: "";
+.in-kosik.ordering-process .extras-col .discount-coupon {
+    flex-grow: 0;
+    width: 520px !important;
+    max-width: 50% !important;
+    padding: 20px;
+    background: #FBFAF9;
+    flex-shrink: 0;
+}
+
+.in-kosik.ordering-process .discount-coupon.otevreny form {
+    max-width: 100%;
+}
+
+.in-kosik.ordering-process .extras-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.in-kosik.ordering-process .extras-col .extras-wrap {
+    flex-grow: 1;
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery {
+    background: #F0F7EA;
+    padding: 30px;
+    margin: 0;
+    border-radius: var(--border-radius);
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery span {
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    color: var(--gray);
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery span::before {
+    font-size: 20px;
+    font-weight: 600;
+    content: "Doprava zdarma";
+    width: 100%;
+    font-family: var(--font-headings) !important;
+    color: var(--darker);
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery::before {
+    content: "";
     height: 30px;
     width: 40px;
     background-image: url(https://outdoormarket-cz.pages.dev/icons/car.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    flex-shrink :0;
-      }
-      
-    .in-kosik.ordering-process .extras-col .extra.delivery span  .price-range{
-        margin-top: 15px;
-    }
-      
-      
-          .in-kosik.ordering-process .extras-col .extra.delivery span::before
-      .in-kosik.ordering-process .next-step #continue-order-button{
-           display: inline-flex;
-    width: auto;   
+    flex-shrink: 0;
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery span .price-range {
+    margin-top: 15px;
+}
+
+
+.in-kosik.ordering-process .extras-col .extra.delivery span::before .in-kosik.ordering-process .next-step #continue-order-button {
+    display: inline-flex;
+    width: auto;
     border-radius: var(--border-radius);
     display: flex;
     gap: 12px;
@@ -3698,17 +3704,18 @@ flex-grow: 1;
     font-size: 18px;
     background: var(--green);
     transition: 0.2s ease all;
-      }
-      
-.in-kosik.ordering-process .price-wrapper{
+}
+
+.in-kosik.ordering-process .price-wrapper {
     margin: 0;
     padding: 20px;
-        border-radius: var(--border-radius);
-        border: 1px solid var(--darker);
-        box-shadow: 5px 5px 0px #E3E3E3;
-        width : 100%;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--darker);
+    box-shadow: 5px 5px 0px #E3E3E3;
+    width: 100%;
 }
-.in-kosik.ordering-process .cart-content.summary-wrapper >div{
+
+.in-kosik.ordering-process .cart-content.summary-wrapper>div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -3718,60 +3725,240 @@ flex-grow: 1;
 .price-wrapper .price-label {
     font-size: 16px;
 }
-.price-wrapper .price{
-        font-size: 16px;
+
+.price-wrapper .price {
+    font-size: 16px;
 }
-.price-wrapper .price-label.price-primary, .price-wrapper .price.price-primary{
-        font-family: var(--font-headings) !important;
+
+.price-wrapper .price-label.price-primary,
+.price-wrapper .price.price-primary {
+    font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
     font-weight: 600 !important;
-      font-size: 22px;
+    font-size: 22px;
 }
-.cart-table .p-name .main-link{
-        font-size: 17px;
-        font-family: var(--font-headings) !important;
-        font-weight: 500;
+
+.cart-table .p-name .main-link {
+    font-size: 17px;
+    font-family: var(--font-headings) !important;
+    font-weight: 500;
 }
-.cart-table .p-name .main-link .main-link-variant{
+
+.cart-table .p-name .main-link .main-link-variant {
     color: var(--gray);
-     font-weight: 400;
+    font-weight: 400;
 }
-.cart-table .p-name  .show-related{
-            font-size: 16px;
-            padding-top: 0;
-            margin-top: 10px;
+
+.cart-table .p-name .show-related {
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 10px;
 }
-.price-wrapper .price.price-primary{
+
+.price-wrapper .price.price-primary {
     color: var(--red);
 }
-#dkLabFavCartHeader h2{
+
+#dkLabFavCartHeader h2 {
     font-size: 28px;
     margin-top: 0;
 }
-.in-kosik.ordering-process .extras-col .discount-coupon .kupon-odkaz{
-            font-family: var(--font-headings) !important;
+
+.in-kosik.ordering-process .extras-col .discount-coupon .kupon-odkaz {
+    font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
     font-weight: 600 !important;
-      font-size: 18px;
+    font-size: 18px;
 }
-.in-kosik.ordering-process .extras-col .discount-coupon input{
+
+.in-kosik.ordering-process .extras-col .discount-coupon input {
     border-radius: var(--border-radius);
 }
-.in-kosik.ordering-process .extras-col .discount-coupon button{
+
+.in-kosik.ordering-process .extras-col .discount-coupon button {
     width: auto;
     min-width: 1px;
     padding: 0 20px;
-     border-radius: var(--border-radius);
-                font-family: var(--font-headings) !important;
+    border-radius: var(--border-radius);
+    font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
     font-weight: 500 !important;
-      font-size: 16px;
+    font-size: 16px;
 }
-.cart-table tr td.cart-p-image a{
+
+.cart-table tr td.cart-p-image a {
     display: flex;
     width: 100px;
     height: 90px;
 }
-.cart-table tr td.cart-p-image a img{
+
+.cart-table tr td.cart-p-image a img {
     object-fit: contain;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box {
+    background: white;
+    padding: 30px;
+
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box h4+strong {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: var(--grey-dark);
+    font-weight: 400;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box h4 {
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    color: var(--darker);
+    font-size: 20px;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box .facebook {
+    display: none;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul li {
+    margin: 0 !important;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box a {
+    color: var(--darker);
+}
+
+#checkoutSidebar .price-wrapper .price-label.price-primary,
+#checkoutSidebar .price-wrapper .price.price-primary {
+    font-size: 18px;
+}
+
+#checkoutSidebar .order-recapitulation {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#checkoutSidebar .order-recapitulation .recapitulation-single {
+    padding: 0;
+    border: 0;
+}
+
+#checkoutSidebar .order-recapitulation .recapitulation-shipping-billing-label {
+    text-transform: uppercase;
+    color: var(--gray-dark);
+
+}
+
+#checkoutSidebar .order-recapitulation .recapitulation-shipping-billing-info {
+    font-family: var(--font-headings) !important;
+    font-weight: 500 !important;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+#checkoutSidebar .order-recapitulation .recapitulation-shipping-billing-info span {
+    font-weight: 500 !important;
+}
+
+#checkoutSidebar .order-summary-inner h2 {
+    font-size: 24px;
+}
+
+#checkoutSidebar .cart-items {
+    border-bottom: 1px solid var(--border);
+}
+
+#checkoutSidebar .cart-item {
+    border: 0;
+    BORDER-TOP: 1px solid var(--border);
+    padding: 10px 0;
+}
+
+#checkoutSidebar .cart-item .cart-item-name a {
+    font-family: var(--font-headings) !important;
+    font-weight: 500 !important;
+    font-size: 16px;
+    padding-top: 5px;
+    color: var(--darker);
+}
+
+#checkoutSidebar .cart-item .cart-item-name a:hover {
+    text-decoration: none !important;
+}
+
+#checkoutSidebar .cart-item .cart-item-name a .main-link-variant {
+    text-transform: none;
+    color: var(--gray-dark);
+    font-family: var(--font-main) !important;
+    font-size: 15px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+#checkoutSidebar .cart-item .cart-item-amount {
+    font-size: 16px;
+}
+
+#checkoutSidebar .cart-item .cart-item-price {
+    font-family: var(--font-headings) !important;
+    font-weight: 500 !important;
+    font-size: 17px;
+    color: var(--red);
+}
+
+#checkoutSidebar .order-summary-item.helper {
+    font-family: var(--font-headings) !important;
+    font-weight: 500 !important;
+    font-size: 17px;
+    padding: 20px 0;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    display: none;
+}
+
+#checkoutSidebar .order-summary-item strong {
+    font-weight: 500;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul li span {
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul li span a {
+    font-size: 18px !important;
+}
+
+.ordering-process #checkoutSidebar .cart-content .order-summary .checkout-box ul li span::before {
+    content: none;
+}
+
+.contact-box {
+    min-height: 1px;
+}
+
+@media (max-width: 1200px) {
+    .ordering-process #checkoutContent {
+        padding: 40px;
+    }
+
+    .ordering-process #checkoutSidebar .cart-content {
+        padding: 20px;
+    }
 }
