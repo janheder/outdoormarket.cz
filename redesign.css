@@ -5219,3 +5219,68 @@ ol.cart-header li strong {
 .product .p-in {
     padding-bottom: 0;
 }
+
+#company-info {
+    margin: 0;
+    margin-bottom: 30px;
+    border: 1px solid var(--darker);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    padding-top: 0;
+}
+
+.form-group select {
+    height: 50px;
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    height: 50px;
+    font-size: 17px;
+    color: var(--darker);
+    padding: 0 16px;
+}
+
+.question-tooltip {
+    background: var(--dark);
+    border: 0;
+    margin: 0;
+}
+
+ol.cart-header {
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 767px) {
+    ol.cart-header li span {
+        font-size: 16px;
+    }
+
+    ol.cart-header {
+        position: relative;
+        z-index: 1;
+    }
+
+    ol.cart-header::before {
+        content: "";
+        top: 0px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 100%;
+        background: var(--light);
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    #company-info {
+        padding: 20px;
+    }
+
+    ol.cart-header li span {
+        font-size: 15px;
+    }
+}
