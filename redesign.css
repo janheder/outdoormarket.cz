@@ -3089,7 +3089,7 @@ h4.homepage-group-title,
 }
 
 .ordering-process #checkoutContent {
-    width: 70%;
+    width: 68%;
     background: white;
     padding: 60px;
 }
@@ -3097,7 +3097,7 @@ h4.homepage-group-title,
 .ordering-process #checkoutSidebar {
     padding: 10px;
     padding-left: 0;
-    width: 30%;
+    width: 32%;
     background: white;
     font-size: 16px;
 }
@@ -5115,4 +5115,107 @@ ol.cart-header li strong {
 
 #checkoutSidebar .price-secondary {
     padding-top: 0px;
+}
+
+.product-top #select-variants label>span {
+    border: 1px solid var(--border);
+    padding: 0 5px;
+}
+
+.product-top #select-variants {
+    padding-top: 0;
+}
+
+.product-top .availability-value {
+    padding-top: 30px;
+}
+
+.p-info-wrapper .availability-value>span.default-variant .availability-label {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#sai--code__product_related {
+    padding: 0px;
+}
+
+.sai-ProductWidget__productsWrapper {
+    padding: 0 !important;
+}
+
+#description .basic-description p,
+#description .basic-description * {
+    font-size: 17px !important;
+}
+
+#description .basic-description .popis-nadpis {
+    font-size: 24px !important;
+}
+
+.extended-description table {
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+}
+
+.extended-description table tr:nth-child(odd) {
+    background: var(--light);
+}
+
+.extended-description .detail-parameters th,
+.extended-description .detail-parameters td {
+    border: 0;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.extended-description .detail-parameters td {
+    color: var(--darker);
+}
+
+.all-param {
+    margin: 0;
+    background: white;
+    border: 1px solid var(--border);
+    border-top: 0;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: -1px;
+}
+
+.all-param::after {
+    content: none;
+}
+
+.all-param span {
+    border: 1px solid var(--darker);
+    width: 100%;
+    background: white;
+    border-radius: var(--border-radius);
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    color: var(--darker);
+    font-size: 15px;
+}
+
+.all-param span:hover {
+    background: var(--light);
+    color: var(--darker);
+}
+
+#sai--code__product_cross_sell .products-block {
+    padding-top: 60px;
+}
+
+.products-related-header {
+    padding-top: 60px;
+}
+
+#sai--code__product_related .products-block {
+    padding-top: 60px;
+}
+
+.product .p-in {
+    padding-bottom: 0;
 }

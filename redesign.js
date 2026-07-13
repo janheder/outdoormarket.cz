@@ -24,11 +24,10 @@ function headerPhone() {
                 }
             }
         }
-
-        // Přesuneme element do nového rodiče
         novyRodic.appendChild(elementKPresunu);
     }
 }
+
 
 function cartHeaderStep() {
     const cartHeader = document.querySelector('.ordering-process .cart-header');
