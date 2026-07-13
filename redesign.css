@@ -4694,13 +4694,13 @@ body #select-variants label:hover>span {
 }
 
 .sai-ProductWidget__title {
-    font-size: 34px;
-    margin-bottom: 30px;
+    font-size: 34px !important;
+    margin-bottom: 30px !important;
     font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
     font-weight: 700 !important;
     color: var(--darker);
-    padding: 0;
+    padding: 0 !important;
 }
 
 .products-block .p-bottom>div {
@@ -4740,7 +4740,7 @@ body #select-variants label:hover>span {
 
 .p-info-wrapper .price-final {
     font-family: var(--font-headings) !important;
-    text-transform: uppercase !important;
+    text-transform: none;
     font-weight: 600 !important;
     color: var(--red);
     font-size: 28px;
@@ -4802,7 +4802,7 @@ body #select-variants label:hover>span {
     }
 
     .sai-ProductWidget__title {
-        font-size: 28px;
+        font-size: 28px !important;
         margin-bottom: 20px !important;
     }
 }
