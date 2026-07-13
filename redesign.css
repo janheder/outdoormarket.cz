@@ -22,6 +22,8 @@
     --gold: #C6A56B;
 
     --gray: #6D6C79;
+    --gray-dark: #5B606D;
+
     --green: #61AE24;
     --border: #E5E5E5;
 
@@ -3100,8 +3102,9 @@ h4.homepage-group-title,
 }
 
 .ordering-process #checkoutSidebar .cart-content {
-    background: var(--light);
+    background: #FBFAF9;
     padding: 40px;
+    border-radius: var(--border-radius);
 }
 
 .ordering-process #checkoutSidebar .cart-content .order-summary {
