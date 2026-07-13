@@ -4448,3 +4448,68 @@ body #select-variants label input[type="radio"]:checked + span, body #select-var
     background-color: var(--dark);
     color: #FFF;
 }
+.ordering-process #checkoutContent .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+        max-width: 520px !important;
+        position: relative;
+}
+.ordering-process #checkoutContent .form-group label{
+    line-height: 1.2;
+    padding-right: 0;
+    padding-bottom: 8px;
+        font-size: 16px;
+         color: var(--gray);
+         font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    width: 100%;
+}
+.ordering-process #checkoutContent .form-group input{
+    width: 100% !important;
+    max-width: 100% !important;
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    height: 50px;
+    font-size: 17px;
+    color: var(--darker);
+}
+.ordering-process #checkoutContent .form-group input::placeholder{
+        color: var(--gray);
+}
+.phone-combined-input{
+    
+}
+.ordering-process #checkoutContent .co-box h4{
+    font-size: 24px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+}
+
+.ordering-process #checkoutContent .form-group label.whole-width{
+    padding-bottom: 0px;
+  color: var(--darker);
+}
+.ordering-process #checkoutContent .form-group .validator-msg.msg-error, 
+.ordering-process #checkoutContent .form-group .validator-msg.msg-warning, 
+.ordering-process #checkoutContent .form-group .js-validator-msg.msg-error, 
+.ordering-process #checkoutContent .form-group .validator-msg.msg-info{
+    position: relative;
+    margin: 0;
+    left: 0;
+    margin-top: 10px;
+    min-height: 48px;
+    height: auto;
+    font-size: 16px;
+        border-radius: var(--border-radius);
+        border: 0;
+        background: #ffe6e6;
+        line-height: 1.2;
+}
+.ordering-process #checkoutContent .form-group-tooltip {
+    right: 0;
+    left: auto;
+    top: 0;
+    position: absolute;
+}
