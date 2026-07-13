@@ -3806,7 +3806,7 @@ h4.homepage-group-title,
     display: flex;
     font-size: 15px;
     margin-bottom: 30px;
-    color: var(--grey-dark);
+    color: var(--gray-dark);
     font-weight: 400;
 }
 
@@ -3961,4 +3961,176 @@ h4.homepage-group-title,
     .ordering-process #checkoutSidebar .cart-content {
         padding: 20px;
     }
+}
+
+.ucet {
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px 16px;
+    color: #24242E;
+    background-color: #FBFAF9;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.site-msg-custom.step-1 {
+    margin-bottom: 0px;
+}
+
+.ordering-process #checkoutContent .cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.form-group label:not(.whole-width):not(.select-label) {
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    color: var(--darker);
+    font-size: 15px;
+}
+
+.ordering-process #checkoutContent .co-box-additional {
+    order: 50;
+    border-top: 1px solid var(--border);
+    padding-top: 30px;
+}
+
+.co-box.co-box-additional::before {
+    content: none;
+}
+
+.top-navigation-bar-menu li:nth-child(1n+5) {
+    display: none;
+}
+
+.ordering-process #checkoutSidebar .next-step #orderFormButton::after {
+    content: "";
+    height: 11px;
+    width: 11px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/arrow.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: none;
+    filter: invert(1) brightness(5);
+
+}
+
+.ordering-process #checkoutSidebar .next-step #orderFormButton {
+    align-items: center;
+    gap: 8px;
+    height: 58px;
+    padding: 0 25px;
+}
+
+
+
+.ordering-process #continue-order-button {
+    border-radius: var(--border-radius);
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    color: white;
+    font-size: 18px;
+    background: var(--green);
+    transition: 0.2s ease all;
+    height: 58px;
+    padding: 12px 32px;
+
+}
+
+.ordering-process #continue-order-button::after {
+    content: "";
+    height: 11px;
+    width: 11px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/arrow.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: none;
+    filter: invert(1) brightness(5);
+    top: auto;
+    right: 0;
+    position: relative;
+    margin: 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .ordering-process #checkoutSidebar .cart-content {
+        position: relative;
+        top: 0;
+
+    }
+}
+
+.ordering-process #checkoutSidebar .cart-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ordering-process #checkoutSidebar .form-group.consents {
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    font-size: 15px;
+}
+
+.ordering-process #checkoutSidebar .form-group.consents label {
+    font-size: 15px;
+    color: var(--darker);
+}
+
+.ordering-process #checkoutSidebar .form-group.consents label[for="consents3"] {
+    background: #F0F7EA;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: var(--border-radius);
+}
+
+.ordering-process #checkoutSidebar .form-group.consents label[for="consents3"] a {
+    color: var(--dark);
+}
+
+.ordering-process #checkoutSidebar .next-step {
+    margin-top: 20px;
+}
+
+#checkoutSidebar .next-step #submit-order {
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-headings) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    color: white;
+    font-size: 18px;
+    background: var(--green);
+    transition: 0.2s ease all;
+    height: 62px;
+    padding: 0px 25px;
+    border: 0;
+}
+
+#checkoutSidebar .next-step #submit-order:hover {
+    background: var(--dark);
+}
+
+#checkoutSidebar .next-step #submit-order .order-button-suffix {
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
 }
