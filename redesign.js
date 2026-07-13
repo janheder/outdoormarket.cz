@@ -6,9 +6,21 @@ function headerPhone() {
     }
 }
 
+function cartHeaderStep() {
+    const cartHeader = document.querySelector('.ordering-process .cart-header');
+    if (cartHeader) {
+        cartHeader.append(
+            Object.assign(document.createElement('li'), {
+                className: 'step step-4',
+                innerHTML: `<strong><span>Dokončení objednávky</span></strong>`
+            })
+        );
+    }
+}
 
 
 
 /* document.addEventListener("DOMContentLoaded", () => { */
-    headerPhone();  
+    headerPhone();   
+    cartHeaderStep();
 /* }); */
