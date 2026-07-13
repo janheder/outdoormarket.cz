@@ -2548,7 +2548,8 @@ h4.homepage-group-title,
 .product-top #select-variants label {
     margin: 0;
     max-width: 75px;
-    height: 50px;
+    height: auto;
+    min-height: 50px;
     width: 100%;
     margin: 0;
     flex-grow: 1;
@@ -4740,7 +4741,7 @@ body #select-variants label:hover>span {
 .p-info-wrapper .price-final {
     font-family: var(--font-headings) !important;
     text-transform: uppercase !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     color: var(--red);
     font-size: 28px;
 }
@@ -4837,4 +4838,24 @@ body #select-variants label:hover>span {
         grid-template-columns: 1fr 480px;
         grid-gap: 30px;
     }
+}
+
+.p-info-wrapper .detail-parameters .variant-list{
+    position: relative;
+    
+}
+.p-info-wrapper .detail-parameters .variant-list button{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    color: var(--green);
+    border: 0;
+    background: none;
+    text-decoration: underline;
+    font-family: var(--font-headings) !important;
+    font-size: 15px;
+}
+.paxio-merkur .p-detail-inner .dm-coupon-div{
+    margin-top: 0;
+    width: 100%;
 }
