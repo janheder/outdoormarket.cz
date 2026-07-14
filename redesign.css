@@ -5284,11 +5284,208 @@ ol.cart-header {
         font-size: 15px;
     }
 }
+
 @media (min-width: 768px) {
     .submenu-visible .navigation-in>ul>li.ext.exp>ul {
         margin-top: 0px;
     }
 }
-.widget-parameter-wrapper{
+
+.widget-parameter-wrapper {
     left: 0;
+}
+
+.header-top .btn.cart-count i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-tools {
+        height: 62px;
+        padding: 0;
+    }
+
+    .top-navigation-bar .container {
+        padding: 0;
+    }
+
+    .responsive-tools>a[data-target="navigation"] {
+        position: absolute;
+        left: 0;
+        right: auto;
+        background-color: #fff;
+        width: 54px;
+        height: 62px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #header .site-name {
+        left: 54px;
+        top: -62px;
+        height: 62px;
+        width: 100%;
+        max-width: 160px;
+    }
+
+    #header #dkLabFavHeaderWrapper {
+        right: 110px !important;
+        left: auto !important;
+        position: absolute;
+        height: 48px;
+        width: 48px;
+        top: -57px !important;
+    }
+
+    .header-top>div.search form {
+        max-width: 100%;
+    }
+
+    #header #dkLabFavHeaderWrapper #dkLabFavHeaderIconBtn {
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #header #dkLabFavHeaderWrapper #dkLabFavHeaderIconBtn::before {
+        display: flex;
+        content: "" !important;
+        height: 22px !important;
+        width: 22px !important;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/heart.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #header #dkLabFavHeaderWrapper .dkLabFavHeaderIconBtn em {
+        top: 22px !important;
+        width: 18px !important;
+        height: 18px !important;
+        line-height: 15px !important;
+    }
+
+    #header .cart-count {
+        right: 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -57px !important;
+    }
+
+    .responsive-tools>a[data-target="navigation"]::after,
+    .navigation-close::after {
+        content: none;
+    }
+
+    .responsive-tools>a[data-target="navigation"]::before,
+    .navigation-close::before {
+        top: 0;
+        content: "";
+        height: 20px;
+        width: 20px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/hamburger.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .navigation-window-visible .responsive-tools>a[data-target="navigation"]::before {
+        content: '';
+        height: 12px;
+        width: 12px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/cross.svg);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-top>div.search {
+        padding: 0px 10px 10px 10px;
+    }
+
+    #header .search-form .form-control.search-input {
+        height: 46px;
+        padding: 0 15px;
+        font-size: 16px !important;
+        border: 1px solid var(--border);
+        border-radius: var(--border-radius);
+    }
+
+    #header .search-form .form-control.search-input::placeholder {
+        font-size: 16px !important;
+    }
+
+    .search-form.compact-form .btn {
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        color: var(--darker);
+        border: 0;
+        width: 50px;
+        padding: 0;
+    }
+
+    .responsive-tools>a[data-target="login"] {
+        height: 48px;
+        width: 48px;
+        top: 5px !important;
+        right: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive-tools>a[data-target="login"]::before {
+        content: "";
+        height: 20px;
+        width: 20px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/user.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #header {
+        top: 62px !important;
+        position: sticky;
+    }
+
+    #navigation {
+        z-index: 1000;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: calc(100% - 62px);
+        top: 62px;
+        width: 100% !important;
+    }
+
+    .navigation-window-visible .navigation-in ul li.ext.exp {
+        position: fixed;
+        background-color: #fff;
+        z-index: 9;
+        width: 100%;
+        height: 100%;
+        top: 62px;
+    }
+
+    .submenu-arrow {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submenu-arrow::after {}
 }
