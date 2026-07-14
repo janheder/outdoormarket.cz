@@ -41,9 +41,20 @@ function cartHeaderStep() {
     }
 }
 
+function footerSectionsToggle() {
+    const footer = document.getElementById('footer');
+    if (footer) {
+        footer.addEventListener('click', function(event) {
+            if (event.target.matches('#footer .footer__section > h2')) {
+                event.target.classList.toggle('--active');
+            }
+        });
+    }
+}
 
 
 /* document.addEventListener("DOMContentLoaded", () => { */
     headerPhone();   
     cartHeaderStep();
+    footerSectionsToggle();
 /* }); */
