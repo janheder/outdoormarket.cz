@@ -5127,7 +5127,7 @@ ol.cart-header li strong {
 
 .product-top #select-variants label>span {
     border: 1px solid var(--border);
-    padding: 0 5px;
+    padding: 8px 5px;
 }
 
 .product-top #select-variants {
