@@ -1396,7 +1396,7 @@ body:not(.type-index) .products-block>div {
     font-family: var(--font-headings) !important;
     text-transform: uppercase;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
@@ -6282,4 +6282,10 @@ ol.cart-header {
 
     }
 
+}
+@media screen and (max-width: 450px) {
+    #footer .custom-footer>div:not(.contact) {
+        border-bottom: 0;
+        padding: 10px 0 30px 0;
+    }
 }
