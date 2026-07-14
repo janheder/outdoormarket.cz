@@ -3962,8 +3962,8 @@ h4.homepage-group-title,
 
 @media (max-width: 1200px) {
     .ordering-process #checkoutContent {
-       padding: 10px;
-    padding-right: 30px;
+        padding: 10px;
+        padding-right: 30px;
     }
 
     .ordering-process #checkoutSidebar .cart-content {
@@ -6205,5 +6205,50 @@ ol.cart-header {
     .ordering-process #checkoutContent .co-box .radio-wrapper .payment-shipping-price {
         font-size: 16px;
         margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .btn.btn-cart.btn-lg,
+    a.btn.btn-cart.btn-lg,
+    .btn.add-to-cart-button.btn-lg,
+    a.btn.add-to-cart-button.btn-lg {
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .p-image,
+    .image360 {
+        margin-bottom: 0px;
+    }
+
+    .p-thumbnails-wrapper {
+        margin-top: 10px;
+    }
+
+    .p-thumbnails,
+    .p-thumbnails>div {
+        height: 80px;
+        margin: 0;
+    }
+
+    .p-thumbnails a img {
+        height: 80px;
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body:not(.multiple-columns-body) .p-image-wrapper {
+        margin-bottom: 0px;
+    }
+
+    .product-top .p-info-wrapper {
+        padding-top: 20px !important;
     }
 }
