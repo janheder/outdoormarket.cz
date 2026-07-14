@@ -2619,6 +2619,9 @@ h4.homepage-group-title,
 
 #dobrystrom-widget-root {
     display: none !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    pointer-events: none !important;
 }
 
 #dkLabFavCartWrapper .products-block {
@@ -6090,25 +6093,70 @@ ol.cart-header {
         opacity: 1;
     }
 }
+
 @media screen and (max-width: 575px) {
     .next-to-carousel-banners {
-        overflow-x:auto;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         padding-bottom: 5px;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
-    .next-to-carousel-banners .banner-wrapper{
+
+    .next-to-carousel-banners .banner-wrapper {
         min-width: 280px;
         flex-shrink: 0;
         margin: 0;
         scroll-snap-align: start;
     }
+
     .content .benefitBanner {
-    grid-gap: 10px;
+        grid-gap: 10px;
+    }
+
+    .in-index .content .homepage-products-heading-1 {
+        margin-top: 20px;
+    }
 }
-.in-index .content .homepage-products-heading-1{
-    margin-top: 20px;
+
+@media screen and (max-width: 991px) {
+    .in-kosik.ordering-process .cart-row>div.col-md-4 {
+        padding-top: 20px !important;
+    }
+
+    .in-kosik.ordering-process .extras-col .extra.delivery {
+        padding: 25px;
+        flex-wrap: nowrap;
+    }
 }
+
+@media screen and (max-width: 575px) {
+    .in-kosik.ordering-process .extras-col .extra.delivery {
+        padding: 18px;
+        gap: 15px;
+    }
+
+    .in-kosik.ordering-process .extras-col .extra.delivery span::before {
+        font-size: 18px;
+
+    }
+}
+
+.in-kosik.ordering-process .extras-col .extra.delivery span::before {
+    position: relative;
+}
+
+@media screen and (max-width: 479px) {
+
+    .id--9 .extra.delivery>span,
+    .id--9 .extras-wrap .extra.discount {
+        position: relative;
+        padding-left: 0px;
+    }
+}
+
+.price-wrapper .price-label.price-primary,
+.price-wrapper .price.price-primary {
+    line-height: 1.3;
 }
