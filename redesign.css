@@ -5961,7 +5961,7 @@ ol.cart-header {
         display: none;
     }
 
-    #header .site-name {
+     .ordering-process #header .site-name {
         left: 10px;
     }
 
