@@ -5961,7 +5961,7 @@ ol.cart-header {
         display: none;
     }
 
-     .ordering-process #header .site-name {
+    .ordering-process #header .site-name {
         left: 10px;
     }
 
@@ -6027,5 +6027,66 @@ ol.cart-header {
 
     .ordering-process #checkoutContent .co-box-additional {
         padding: 10px 0;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer .footer-grid {
+        gap: 0;
+    }
+
+    .footer__section.--contacts .footer-logo {
+        height: 46px;
+    }
+
+    #footer .footer__section.--contacts {
+        padding-bottom: 30px;
+    }
+
+    #footer .footer-grid .footer__content {
+        display: none;
+    }
+
+    #footer .footer-grid .footer__title {
+        border-top: 1px solid var(--border);
+        padding: 20px 0;
+        margin: 0;
+        position: relative;
+    }
+
+    #footer .footer-grid .footer__title::after {
+        content: "";
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/cheveron.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.2s ease all;
+    }
+
+    #footer .footer-grid .footer__title.--active+.footer__content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #footer .footer-grid .footer__title.--active::after {
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+    .footer-links-icons .footer-icons {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #footer {
+        opacity: 1;
     }
 }
