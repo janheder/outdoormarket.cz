@@ -2618,10 +2618,14 @@ h4.homepage-group-title,
 }
 
 #dobrystrom-widget-root {
-    display: none !important;
+    display: flex !important;
     opacity: 0 !important;
     position: absolute !important;
     pointer-events: none !important;
+    left: 40px;
+    right: 40px;
+    bottom: 0;
+    transform: scale(0.5);
 }
 
 #dkLabFavCartWrapper .products-block {
