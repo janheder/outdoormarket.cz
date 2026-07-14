@@ -3958,7 +3958,8 @@ h4.homepage-group-title,
 
 @media (max-width: 1200px) {
     .ordering-process #checkoutContent {
-        padding: 40px;
+       padding: 10px;
+    padding-right: 30px;
     }
 
     .ordering-process #checkoutSidebar .cart-content {
