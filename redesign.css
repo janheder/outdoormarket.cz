@@ -7242,3 +7242,34 @@ b, strong {
         font-weight: 600 !important;
     }
 }
+
+
+.custom-footer .custom-footer__banner6991::after{
+    content: "";
+    top: -60px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 80px;
+    background-image: url("https://outdoormarket-cz.pages.dev/img/cta-section-shape.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0;
+}
+.custom-footer .custom-footer__instagram {
+    padding-bottom: 100px;
+}
+@media screen and (max-width: 991px) {
+    .custom-footer .custom-footer__instagram {
+    padding-bottom: 80px !important;
+}
+}
+@media screen and (max-width: 767px) {
+.custom-footer .custom-footer__instagram {
+    padding-bottom: 60px !important;
+}
+}
