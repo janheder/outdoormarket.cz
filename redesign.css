@@ -7217,3 +7217,28 @@ ol.top-products li a .top-products-name {
     margin: 0 auto;
     padding-top: 50px;
 }
+.news-item-detail .text{
+    font-size: 17px;
+}
+b, strong {
+    font-weight: 600;
+}
+@media (max-width: 650px) {
+    .footer-links-icons .footer-icons{
+        margin: 0;
+        padding: 20px 0;
+    }
+.footer-icon img {
+    max-height: 20px;
+}
+.footer-bottom, .copyright, #signature a{
+    line-height: 1.3;
+
+}
+.copyright{
+    margin-top: 5px;
+}
+    #footer .footer-grid .footer__title {
+        font-weight: 600 !important;
+    }
+}
