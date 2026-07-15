@@ -7002,11 +7002,11 @@ ol.top-products li a .top-products-name {
 
 }
 
-.sai-ProductWidget__title,
-h2#productsTopHeading {
+.type-category .sai-ProductWidget__title,
+.type-category h2#productsTopHeading {
     font-size: 28px !important;
     margin-bottom: 20px !important;
-    text-align: left;
+    text-align: left !important;
 }
 
 .products-block .p .flags-default .flag {
@@ -7207,4 +7207,13 @@ h2#productsTopHeading {
     background-repeat: no-repeat;
     margin: 0;
     transform: rotate(90deg);
+}
+.responsive-nav {
+    position: relative;
+    min-width: 250px;
+    margin-bottom: 0;
+}
+#description {
+    margin: 0 auto;
+    padding-top: 50px;
 }
