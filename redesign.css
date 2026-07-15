@@ -6625,3 +6625,70 @@ ol.cart-header {
         padding: 15px;
     }
 }
+
+.in-kosik.ordering-process .cart-content.summary-wrapper>div {}
+
+.next-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ordering-process #continue-order-button {
+    max-width: 360px;
+}
+
+.ordering-process .cart-inner .sidebar-in-cart .next-step-back {
+    text-decoration: none;
+    font-family: var(--font-headings) !important;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none !important;
+    display: flex;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border);
+    align-self: center;
+    margin-top: 30px;
+    height: 50px;
+    padding: 0 30px;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    min-width: 1px;
+}
+
+.sidebar-in-cart .next-step-back .continue-shopping {
+    text-decoration: none;
+}
+
+.in-kosik.ordering-process .cart-row>div.col-md-4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.in-kosik.ordering-process .cart-content.summary-wrapper {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .in-kosik.ordering-process .extras-col:last-child>div {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .flags-extra .flag.flag-discount {
+        height: 44px;
+        width: 44px;
+    }
+
+    .flags-extra .flag .price-save {
+        font-size: 14px;
+    }
+}
