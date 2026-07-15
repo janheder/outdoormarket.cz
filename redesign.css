@@ -7213,7 +7213,7 @@ ol.top-products li a .top-products-name {
     min-width: 250px;
     margin-bottom: 0;
 }
-#description {
+#description .description-inner{
     margin: 0 auto;
     padding-top: 50px;
 }
