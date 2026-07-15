@@ -7008,3 +7008,148 @@ h2#productsTopHeading {
     margin-bottom: 20px !important;
     text-align: left;
 }
+
+.products-block .p .flags-default .flag {
+    font-weight: 600;
+}
+
+.products-block .p .flags-default .flag.flag-vyprodej {
+    color: #A27A35;
+}
+
+.products-inline.products-top>div .p {
+    flex-wrap: nowrap;
+}
+
+#productsTop.products-inline .product .p .image {
+    flex-shrink: 0;
+    margin: 0;
+}
+
+#productsTop.products-inline .product .p .p-in {
+    flex-grow: 1;
+
+}
+
+.category-perex {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .subcategories {
+        padding-top: 20px;
+    }
+
+    .products-top-wrapper {
+        padding-top: 20px;
+    }
+
+    #productsTop .p-in .p-in-in a {
+        font-size: 16px;
+    }
+
+    #filters {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .filtrovat {
+        height: 48px;
+        position: relative;
+    }
+
+    .filtrovat::after {
+        content: "";
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/cheveron.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.2s ease all;
+        filter: invert(1) brightness(5);
+    }
+
+    .otevreno .filtrovat::after {
+        transform: translateY(-50%) rotate(90deg);
+        top: 50%;
+    }
+
+    .otevreno .filter-sections {
+        display: block;
+        border: 1px solid var(--border);
+
+        margin-top: 3px;
+        border-radius: var(--border-radius);
+    }
+
+    .filter-sections .slider-wrapper {
+        border-top: 1px solid var(--border);
+    }
+
+    .otevreno .filter-sections>div:first-child>div {
+        border-top: 0;
+    }
+
+    #filters h4 {
+        margin-top: 0;
+    }
+
+    .category-header {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .listSorting {
+        height: 48px;
+        border: 0;
+        z-index: 2;
+    }
+
+    .razeni-klik {
+        height: 48px;
+        border: 0;
+    }
+
+    .listSorting__controls {
+        border: 0;
+        background: white;
+
+    }
+
+    .listSorting__controls li {
+        padding-bottom: 2px;
+    }
+
+    .listSorting__controls li button {
+        height: 47px;
+        border: 1px solid var(--border);
+        border-radius: var(--border-radius);
+    }
+
+    .razeni-klik::after {
+        content: "";
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+        background-image: url(https://outdoormarket-cz.pages.dev/icons/cheveron.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.2s ease all;
+    }
+
+    .otevreno .razeni-klik::after {
+        transform: translateY(-50%) rotate(90deg);
+        top: 50%;
+    }
+}
