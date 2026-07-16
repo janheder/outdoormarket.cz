@@ -52,9 +52,20 @@ function footerSectionsToggle() {
     }
 }
 
+function productFavourite() {
+    const source = document.querySelector('.product-top .buy-box .dkLabFavouriteDiv');
+    const target = document.querySelector('.p-image');
+
+    if (source && target) {
+        // Přesune element na konec .p-image
+        target.appendChild(source); 
+    }
+}
+
 
 /* document.addEventListener("DOMContentLoaded", () => { */
     headerPhone();   
     cartHeaderStep();
     footerSectionsToggle();
+    productFavourite();
 /* }); */

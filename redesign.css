@@ -7340,3 +7340,15 @@ b, strong {
      font-weight: 500;
  
 }
+.p-image #dkLabFavouriteDiv{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+}
+.p-image .dkLabFavDetailSpan.dkLabFavouriteDetailLinkAdd span{
+    display: none;
+}
+.mousetrap, #cloud-zoom-big{
+    height: 100% !important;
+}
