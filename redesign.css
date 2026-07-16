@@ -7484,3 +7484,15 @@ strong {
 
     }
 }
+
+.flags.flags-default .flag.flag-new {
+    color: #548617;
+}
+
+.p-image-wrapper .flags.flags-default .flag.flag-new {
+    background: #F0F7EA !important;
+}
+
+.flags.flags-default .flag.flag-magenta {
+    color: #e20074;
+}
