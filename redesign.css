@@ -7352,3 +7352,16 @@ b, strong {
 .mousetrap, #cloud-zoom-big{
     height: 100% !important;
 }
+/* 1. Resetujeme (vymažeme) inline velikosti u běžných textových elementů */
+.pageArticleDetail p,
+.pageArticleDetail span,
+.pageArticleDetail li,
+.pageArticleDetail strong,
+.pageArticleDetail em {
+    font-size: inherit !important;
+}
+
+.pageArticleDetail {
+    font-size: 17px; 
+    line-height: 1.5;
+}
