@@ -7780,3 +7780,42 @@ select:focus {
 .lost-pass {
     font-size: 15px;
 }
+
+@media (min-width: 768px) {
+    .submenu-visible .navigation-in ul li.splitted {
+        display: flex;
+    }
+
+    .navigation-in>ul {
+
+        flex-wrap: nowrap;
+
+    }
+
+    .navigation-in>ul>li>a {
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .navigation-in>ul>li>a {
+        font-size: 16px !important;
+    }
+
+    .submenu-arrow {
+        display: none;
+    }
+
+    .navigation-in>ul {
+
+        overflow-x: auto;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .submenu-visible .navigation-in>ul>li.ext.exp>ul {
+        justify-content: flex-start;
+    }
+}
