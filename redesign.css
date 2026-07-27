@@ -7642,3 +7642,141 @@ strong {
     font-size: 15px;
 
 }
+
+.top-navigation-bar .container>.header-socials {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .top-navigation-bar .container>.header-socials {
+        height: 26px;
+        order: 2;
+        display: flex;
+        color: white;
+        font-size: 15px;
+        gap: 15px;
+        padding-right: 20px;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        line-height: 1;
+        align-items: center;
+    }
+
+    .top-navigation-bar .container>.header-socials .header-socials__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .top-navigation-bar .container>.header-socials .header-socials__icon {
+        background: white;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .top-navigation-bar .container>.header-socials .header-socials__icon img {}
+}
+
+@media screen and (min-width: 992px) {
+    .in-kosik.ordering-process .cart-row>div.col-md-4 {
+        position: relative;
+    }
+
+    .next-step {
+        justify-content: flex-end;
+    }
+
+    .ordering-process .cart-inner .sidebar-in-cart .next-step-back {
+        margin: 0;
+        position: absolute;
+        left: 60px;
+        bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ordering-process #checkoutContent {
+        border-top-left-radius: var(--border-radius-round);
+    }
+}
+
+.question-tooltip {
+    opacity: 0.4;
+    margin-left: 5px;
+}
+
+.sign .content form {
+    border: 1px solid var(--darker);
+    box-shadow: 5px 5px 0px #E3E3E3;
+    border-radius: var(--border-radius-round);
+}
+
+.login-wrapper {
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-wrapper .password-helper,
+.alternative-links {
+    width: 100%;
+}
+
+.login-wrapper:before,
+.login-wrapper:after {
+    content: none;
+}
+
+.login-wrapper .password-helper a,
+.alternative-links a {
+    font-size: 16px;
+}
+
+.btn.btn-login {
+    flex-grow: 1;
+    font-family: var(--font-headings) !important;
+    font-size: 17px !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border-radius: var(--border-radius);
+    transition: 0.2s ease all;
+    border: 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    height: 54px;
+    width: 100%;
+    background: var(--green);
+    order: 9;
+}
+
+.form-control,
+select {
+    font-size: 17px;
+    border-radius: var(--border-radius);
+    color: var(--darker);
+}
+
+.form-control:focus,
+select:focus {
+    color: var(--darker);
+}
+
+.login-widget .input-wrapper::before {
+    font-size: 15px;
+}
+
+.lost-pass {
+    font-size: 15px;
+}

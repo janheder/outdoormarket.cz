@@ -62,10 +62,38 @@ function productFavourite() {
     }
 }
 
+function headerSocials() {
+  const targetElement = document.querySelector('.top-navigation-menu');
+
+  if (document.querySelector('.header-socials')) return;
+
+  if (targetElement) {
+    const htmlContent = `
+      <div class="header-socials">
+        <div class="header-socials__title">Sledujte nás</div>
+        <a href="https://www.facebook.com/outdoormarket.cz" class="header-socials__link" target="_blank" rel="noopener noreferrer nofollow">
+          <span class="header-socials__icon">
+            <img src="https://outdoormarket-cz.pages.dev/icons/facebook.svg" loading="eager" alt="Facebook icon" width="6" height="12">
+          </span>
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/outdoormarket.cz/" class="header-socials__link" target="_blank" rel="noopener noreferrer nofollow">
+          <span class="header-socials__icon">
+            <img src="https://outdoormarket-cz.pages.dev/icons/instagram.svg" loading="eager" alt="Instagram icon" width="12" height="12">
+          </span>
+          Instagram
+        </a>
+      </div>
+    `;
+
+    targetElement.insertAdjacentHTML('afterend', htmlContent);
+  }
+}
 
 /* document.addEventListener("DOMContentLoaded", () => { */
     headerPhone();   
     cartHeaderStep();
     footerSectionsToggle();
     productFavourite();
+    headerSocials();
 /* }); */
