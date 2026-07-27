@@ -7496,3 +7496,149 @@ strong {
 .flags.flags-default .flag.flag-magenta {
     color: #e20074;
 }
+
+.p-detail .add-to-cart .quantity {
+    width: 120px;
+    padding: 0 20px;
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+}
+
+.p-detail .add-to-cart .quantity .increase {
+    border: 0;
+    background: transparent;
+    height: 100%;
+    width: 36px;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.p-detail .add-to-cart .quantity .decrease {
+    border: 0 !important;
+    background: transparent;
+    height: 100%;
+    right: auto;
+    top: 0;
+    left: 0;
+    width: 36px;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.p-detail .add-to-cart .quantity .increase:hover,
+.p-detail .add-to-cart .quantity .decrease:hover {
+    opacity: 1;
+}
+
+.p-detail .add-to-cart .quantity .increase::before,
+.p-detail .add-to-cart .quantity .decrease::before {
+    height: 10px;
+    width: 10px;
+
+    top: 0px;
+    left: 0px;
+    position: relative;
+    content: "";
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/minus.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.p-detail .add-to-cart .quantity .increase::before {
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/plus.svg);
+}
+
+.p-detail .add-to-cart .quantity input {
+    width: 100%;
+    font-family: var(--font-headings) !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    font-weight: 500 !important;
+    border-radius: var(--border-radius);
+    color: var(--darker);
+}
+
+@media screen and (max-width: 479px) {
+    .p-detail .add-to-cart .quantity {
+        width: 100%;
+    }
+}
+
+.type-post article h1,
+.type-page article h1,
+.type-posts-listing article h1,
+.id--51 article h1,
+.sign article h1,
+.id--24 article h1 {
+    font-size: 36px;
+}
+
+.type-post article h3,
+.type-page article h3,
+.type-posts-listing article h3,
+.id--51 article h3,
+.sign article h3,
+.id--24 article h3 {
+    font-size: 24px;
+    text-transform: none !important;
+}
+
+.navigation-home-icon-wrapper::before {
+    content: "";
+    display: flex;
+    height: 14px;
+    width: 14px;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/home.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -7px;
+    left: 0;
+}
+
+.navigation-home-icon {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+
+#content .content-inner .news-item-detail .btn {
+    height: 48px;
+    width: auto;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: var(--font-headings) !important;
+    border-radius: var(--border-radius);
+    background: var(--dark);
+    border: 0;
+    min-width: 0;
+    padding: 0 18px;
+}
+
+#formNewsletterWidget .btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#checkoutSidebar .price-secondary {
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+.ordering-process #checkoutSidebar .order-summary-item.price {
+    padding: 20px 0;
+}
+
+.sidebar-inner #categories a {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-headings) !important;
+}
+
+.extra.delivery,
+.extra.gift {
+
+    font-size: 15px;
+
+}
