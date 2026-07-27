@@ -7819,3 +7819,10 @@ select:focus {
         justify-content: flex-start;
     }
 }
+#formNewsletterWidget p.label, #formNewsletterWidget .consents label,
+#formNewsletterWidget p.label a, #formNewsletterWidget .consents label a{
+        color: var(--gray);
+}
+#newsletterSection .subscribe-form .btn:hover{
+    background: var(--dark);
+}
