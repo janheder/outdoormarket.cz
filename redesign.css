@@ -7955,3 +7955,15 @@ h4.homepage-group-title, .h4.homepage-group-title{
     margin-bottom: 0px;
 }
 }
+@media (min-width: 768px) {
+    .products .product .flag-discount .until {
+        margin: 0;
+        font-size: 12px;
+        line-height: 1;
+    }
+}
+.products .product .flag-discount .until{
+           margin: 0;
+        font-size: 12px;
+        line-height: 1; 
+}
