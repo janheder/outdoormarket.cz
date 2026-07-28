@@ -7924,3 +7924,34 @@ h4.homepage-group-title, .h4.homepage-group-title{
         padding-bottom: 0px;
     }
 }
+.flags-extra .flag.flag-discount {
+    width: 62px;
+    height: 62px;
+}
+@media (min-width: 768px) {
+    .p-image-wrapper .flags-extra .flag .price-save .default-variant {
+        font-size: 15px;
+    }
+}
+
+.p-final-price-wrapper .price-standard{
+    color: var(--gray);
+}
+.sai-ProductWidget__title{
+    margin-bottom: 15px !important;
+}
+.sai.sai-ProductWidget .swiper {
+    overflow: hidden;
+    padding-top: 15px;
+}
+.products-related-header, #productsAlternative::before {
+    margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+   .sai-ProductWidget__title{
+    margin-bottom: 0px !important;
+} 
+.products-related-header, #productsAlternative::before {
+    margin-bottom: 0px;
+}
+}
