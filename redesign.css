@@ -7862,3 +7862,65 @@ border-radius: var(--border-radius-round);
 #register-form .stay-in-touch {
     padding: 0 0px;
 }
+.cofidis-wrap a.btn-cofidis strong{
+    display: inline-flex;
+    gap: 3px;
+    font-weight: 500;
+}
+.cofidis-wrap a.btn-cofidis strong b{
+        font-weight: 500;
+}
+.flags-extra .flag .price-save{
+    line-height: 1.5;
+}
+.flag.flag-discount .difference-info{
+    display: flex;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+#header .cart-count.full {
+    background: var(--dark);
+    color: white;
+}
+.header-top .btn.cart-count i{
+    border-color: var(--dark);
+    background: var(--green);
+}
+@media (min-width: 992px) {
+
+    .lista-ano.admin-logged .empty-cart-hover {
+     top: 138px;
+}
+}
+.empty-cart-hover p {
+    line-height: 1,5;
+    font-size: 15px;
+}
+.sai-ProductWidget__productsWrapper {
+    overflow: visible;
+}
+.products-block .p a.image{
+        overflow: visible;
+}
+.products .slick-list{
+        padding-top: 15px !important;
+}
+h4.homepage-group-title, .h4.homepage-group-title{
+    margin-bottom: 15px;
+}
+.tooltip-digitaldepo{
+    font-size: 11px;
+    padding: 4px;
+}
+@media (max-width: 767px) {
+    h4.homepage-group-title, .h4.homepage-group-title {
+        padding-bottom: 0px;
+    }
+}
