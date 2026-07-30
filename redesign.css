@@ -8114,3 +8114,21 @@ h4.homepage-group-title,
 .top-navigation-contacts .top-nav-button-login{
     display: none !important;
 }
+.position--benefitCategory {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 20px;
+    padding: 30px 0;
+}
+@media (max-width: 1000px) {
+    .position--benefitCategory {
+      grid-template-columns: repeat(2, minmax(0, 1fr));  }
+}
+@media (max-width: 767px) {
+    .position--benefitCategory{
+        display: none;
+    }
+}
+.category__secondDescription{
+    font-size: 16px;
+}
