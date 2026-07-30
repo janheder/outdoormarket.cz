@@ -8170,8 +8170,9 @@ h4.homepage-group-title,
 #sai--code__product_cross_sell .sai-ProductBox{
     border: 0 !important;
 }
-#sai--code__product_related>div, #sai--code__product_cross_sell>div{
-        border: 0 !important;
+#content #sai--code__product_related>div, 
+#content  #sai--code__product_cross_sell>div {
+    border: 0 !important;
 }
 .sai-ProductBox{
      border: 0 !important;
