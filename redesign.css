@@ -7967,3 +7967,9 @@ h4.homepage-group-title, .h4.homepage-group-title{
         font-size: 12px;
         line-height: 1; 
 }
+.p-info-wrapper .availability-value>span.default-variant .availability-label{
+    text-transform: lowercase;
+}
+.p-info-wrapper .availability-value>span.default-variant .availability-label::before{
+text-transform: initial;
+}
