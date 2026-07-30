@@ -8013,7 +8013,9 @@ h4.homepage-group-title,
 .p-info-wrapper .availability-value>span.default-variant .availability-label::before {
     text-transform: initial;
 }
-
+.product-top .p-short-description br {
+    display: none;
+}
 .product-top .p-short-description p:first-of-type br {
     display: none;
 }

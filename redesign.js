@@ -90,7 +90,7 @@ function headerSocials() {
   }
 }
 
-function saiSliderrSocials() {
+function saiSliderSocials() {
     document.querySelectorAll('.sai-ProductWidget__productsWrapper .price-save').forEach(el => {
     // Pokud text začíná slovem "až", zabalíme ho do <span class="until">až</span> a nahradíme mezeru před % za &nbsp;
     if (el.textContent.includes('až')) {
@@ -108,5 +108,5 @@ function saiSliderrSocials() {
     footerSectionsToggle();
     productFavourite();
     headerSocials();
-    saiSliderrSocials();
+    saiSliderSocials();
 /* }); */
