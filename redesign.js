@@ -90,10 +90,23 @@ function headerSocials() {
   }
 }
 
+function saiSliderrSocials() {
+    document.querySelectorAll('.sai-ProductWidget__productsWrapper .price-save').forEach(el => {
+    // Pokud text začíná slovem "až", zabalíme ho do <span class="until">až</span> a nahradíme mezeru před % za &nbsp;
+    if (el.textContent.includes('až')) {
+        el.innerHTML = el.innerHTML
+        .replace(/až\s*/i, '<span class="until">až</span> ')
+        .replace(/\s+%/g, '&nbsp;%');
+    }
+    });
+}
+
+
 /* document.addEventListener("DOMContentLoaded", () => { */
     headerPhone();   
     cartHeaderStep();
     footerSectionsToggle();
     productFavourite();
     headerSocials();
+    saiSliderrSocials();
 /* }); */

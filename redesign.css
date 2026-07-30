@@ -5504,11 +5504,13 @@ ol.cart-header {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     align-self: start;
 }
+
 @media screen and (max-width: 767px) {
     #dkLabFavPageWrapper .products-block {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
-}
+
 .p-info-wrapper .detail-parameters {
     margin-top: 0px;
 }
@@ -7823,24 +7825,30 @@ select:focus {
         justify-content: flex-start;
     }
 }
-#formNewsletterWidget p.label, #formNewsletterWidget .consents label,
-#formNewsletterWidget p.label a, #formNewsletterWidget .consents label a{
-        color: var(--gray);
+
+#formNewsletterWidget p.label,
+#formNewsletterWidget .consents label,
+#formNewsletterWidget p.label a,
+#formNewsletterWidget .consents label a {
+    color: var(--gray);
 }
-#newsletterSection .subscribe-form .btn:hover{
+
+#newsletterSection .subscribe-form .btn:hover {
     background: var(--dark);
 }
+
 .id--8 .reg-ucet {
     padding: 10px;
     display: flex;
     border-bottom: 0;
     background-color: #fff;
     margin: 0;
-border-radius: var(--border-radius-round);
-      background: var(--light);
+    border-radius: var(--border-radius-round);
+    background: var(--light);
 
 }
-#register-form > .reg-ucet .form-group label {
+
+#register-form>.reg-ucet .form-group label {
     line-height: 48px;
     padding: 0 32px;
     font-size: 16px;
@@ -7852,33 +7860,40 @@ border-radius: var(--border-radius-round);
     background: var(--light);
     border-radius: var(--border-radius);
 }
-#register-form > .reg-ucet .form-group input[type="radio"]:checked + label{
-        background: var(--white);
-    
-}    
-.sign .stay-in-touch label{
+
+#register-form>.reg-ucet .form-group input[type="radio"]:checked+label {
+    background: var(--white);
+
+}
+
+.sign .stay-in-touch label {
     font-size: 16px;
 }
+
 #register-form .stay-in-touch {
     padding: 0 0px;
 }
-.cofidis-wrap a.btn-cofidis strong{
+
+.cofidis-wrap a.btn-cofidis strong {
     display: inline-flex;
     gap: 3px;
     font-weight: 500;
 }
-.cofidis-wrap a.btn-cofidis strong b{
-        font-weight: 500;
+
+.cofidis-wrap a.btn-cofidis strong b {
+    font-weight: 500;
 }
-.flags-extra .flag .price-save{
+
+.flags-extra .flag .price-save {
     line-height: 1.5;
 }
-.flag.flag-discount .difference-info{
+
+.flag.flag-discount .difference-info {
     display: flex;
     font-size: 11px;
     text-align: center;
     justify-content: center;
-    
+
 }
 
 
@@ -7889,72 +7904,94 @@ border-radius: var(--border-radius-round);
     background: var(--dark);
     color: white;
 }
-.header-top .btn.cart-count i{
+
+.header-top .btn.cart-count i {
     border-color: var(--dark);
     background: var(--green);
 }
+
 @media (min-width: 992px) {
 
     .lista-ano.admin-logged .empty-cart-hover {
-     top: 138px;
+        top: 138px;
+    }
 }
-}
+
 .empty-cart-hover p {
-    line-height: 1,5;
+    line-height: 1, 5;
     font-size: 15px;
 }
+
 .sai-ProductWidget__productsWrapper {
     overflow: visible;
 }
-.products-block .p a.image{
-        overflow: visible;
+
+.products-block .p a.image {
+    overflow: visible;
 }
-.products .slick-list{
-        padding-top: 15px !important;
+
+.products .slick-list {
+    padding-top: 15px !important;
 }
-h4.homepage-group-title, .h4.homepage-group-title{
+
+h4.homepage-group-title,
+.h4.homepage-group-title {
     margin-bottom: 15px;
 }
-.tooltip-digitaldepo{
+
+.tooltip-digitaldepo {
     font-size: 11px;
     padding: 4px;
 }
+
 @media (max-width: 767px) {
-    h4.homepage-group-title, .h4.homepage-group-title {
+
+    h4.homepage-group-title,
+    .h4.homepage-group-title {
         padding-bottom: 0px;
     }
 }
+
 .flags-extra .flag.flag-discount {
     width: 62px;
     height: 62px;
 }
+
 @media (min-width: 768px) {
     .p-image-wrapper .flags-extra .flag .price-save .default-variant {
         font-size: 15px;
     }
 }
 
-.p-final-price-wrapper .price-standard{
+.p-final-price-wrapper .price-standard {
     color: var(--gray);
 }
-.sai-ProductWidget__title{
+
+.sai-ProductWidget__title {
     margin-bottom: 15px !important;
 }
+
 .sai.sai-ProductWidget .swiper {
     overflow: hidden;
     padding-top: 15px;
 }
-.products-related-header, #productsAlternative::before {
+
+.products-related-header,
+#productsAlternative::before {
     margin-bottom: 15px;
 }
+
 @media (max-width: 767px) {
-   .sai-ProductWidget__title{
-    margin-bottom: 0px !important;
-} 
-.products-related-header, #productsAlternative::before {
-    margin-bottom: 0px;
+    .sai-ProductWidget__title {
+        margin-bottom: 0px !important;
+    }
+
+    .products-related-header,
+    #productsAlternative::before {
+        margin-bottom: 0px;
+    }
 }
-}
+
 @media (min-width: 768px) {
     .products .product .flag-discount .until {
         margin: 0;
@@ -7962,14 +7999,72 @@ h4.homepage-group-title, .h4.homepage-group-title{
         line-height: 1;
     }
 }
-.products .product .flag-discount .until{
-           margin: 0;
-        font-size: 12px;
-        line-height: 1; 
+
+.products .product .flag-discount .until {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1;
 }
-.p-info-wrapper .availability-value>span.default-variant .availability-label{
+
+.p-info-wrapper .availability-value>span.default-variant .availability-label {
     text-transform: lowercase;
 }
-.p-info-wrapper .availability-value>span.default-variant .availability-label::before{
-text-transform: initial;
+
+.p-info-wrapper .availability-value>span.default-variant .availability-label::before {
+    text-transform: initial;
+}
+
+.product-top .p-short-description p:first-of-type br {
+    display: none;
+}
+
+.product-top .p-short-description p a {
+    color: var(--gray);
+    text-decoration: none !important;
+}
+
+
+.product-top .p-info-wrapper .p-short-description .vice-info a {
+    color: var(--green);
+}
+
+.flags-extra .flag.flag-discount {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    min-width: 60px;
+    min-height: 76px;
+    aspect-ratio: 60/76;
+    background-color: transparent;
+    background-image: url(https://outdoormarket-cz.pages.dev/icons/tag-sale.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.p .flag-discount {
+    margin-left: 0px;
+}
+
+.p .flags.flags-extra {
+    width: auto;
+    height: auto;
+}
+
+.p .flags-extra .flag.flag-discount {
+    min-width: 44px;
+    min-height: 60px;
+    max-width: 46px;
+    aspect-ratio: 40/52;
+
+}
+
+.flags-extra .flag .price-save {
+    line-height: 1.3;
+}
+
+.flag.flag-discount .difference-info {
+    text-decoration: none;
+    font-style: normal;
 }
