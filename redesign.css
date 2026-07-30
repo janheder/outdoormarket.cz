@@ -8079,3 +8079,20 @@ h4.homepage-group-title,
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.p-final-price-wrapper .price-standard>span {
+    text-decoration: line-through !important;
+}
+
+.p-final-price-wrapper .lowerPrice {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.product-top .buy-box .p-final-price-wrapper {
+    gap: 5px;
+}
+
+.tooltip-digitaldepo {
+    border-radius: 2px;
+}
