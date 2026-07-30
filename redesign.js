@@ -101,12 +101,23 @@ function saiSliderSocials() {
     });
 }
 
+function headerUser() {
+    const button = document.querySelector('.top-nav-button-login');
+    const container = document.querySelector('.navigation-buttons');
 
-/* document.addEventListener("DOMContentLoaded", () => { */
+    
+    if (button && container) {
+    container.prepend(button);
+    }
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
     headerPhone();   
     cartHeaderStep();
     footerSectionsToggle();
     productFavourite();
     headerSocials();
     saiSliderSocials();
-/* }); */
+    headerUser();
+}); 
