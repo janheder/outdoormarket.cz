@@ -8132,3 +8132,47 @@ h4.homepage-group-title,
 .category__secondDescription{
     font-size: 16px;
 }
+
+.ordering-process.in-dekujeme #content-wrapper::before{
+    content: none;
+}
+.id--15 .cart-table .p-name{
+        font-size: 16px;
+}
+.id--15 .cart-table .p-quantity{
+          font-size: 16px;
+}
+.id--15 .co-box {
+    display: flex;
+    flex-direction: column;
+}
+.order-complete-links .btn.btn-primary{
+
+    font-family: var(--font-headings) !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border-radius: var(--border-radius);
+}
+.order-complete-links .btn.btn-primary:hover{
+    background: var(--dark);
+}
+.detail-parameters .question-tooltip{
+    order: 99;
+}
+.detail-parameters  .row-header-label.has-tooltip{
+    display: flex;
+    align-items: center;
+}
+#sai--code__product_cross_sell .products-block{
+    border: 0 !important;
+}
+#sai--code__product_cross_sell .sai-ProductBox{
+    border: 0 !important;
+}
+#sai--code__product_related>div, #sai--code__product_cross_sell>div{
+        border: 0 !important;
+}
+.sai-ProductBox{
+     border: 0 !important;
+}
