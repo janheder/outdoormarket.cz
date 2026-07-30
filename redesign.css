@@ -7896,10 +7896,6 @@ select:focus {
 
 }
 
-
-
-
-
 #header .cart-count.full {
     background: var(--dark);
     color: white;
@@ -8013,9 +8009,11 @@ h4.homepage-group-title,
 .p-info-wrapper .availability-value>span.default-variant .availability-label::before {
     text-transform: initial;
 }
+
 .product-top .p-short-description br {
     display: none;
 }
+
 .product-top .p-short-description p:first-of-type br {
     display: none;
 }
@@ -8038,7 +8036,7 @@ h4.homepage-group-title,
     min-height: 76px;
     aspect-ratio: 60/76;
     background-color: transparent;
-    background-image: url(https://outdoormarket-cz.pages.dev/icons/tag-sale.svg);
+    background-image: url("https://outdoormarket-cz.pages.dev/icons/tag-sale.svg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -8069,4 +8067,15 @@ h4.homepage-group-title,
 .flag.flag-discount .difference-info {
     text-decoration: none;
     font-style: normal;
+}
+
+.product-top .p-short-description div:not(:first-of-type) {
+    display: none;
+}
+
+.product-top .p-short-description div:first-of-type {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
