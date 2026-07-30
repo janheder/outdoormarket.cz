@@ -101,15 +101,7 @@ function saiSliderSocials() {
     });
 }
 
-function headerUser() {
-    const button = document.querySelector('.top-nav-button-login');
-    const container = document.querySelector('.navigation-buttons');
 
-    
-    if (button && container) {
-    container.prepend(button);
-    }
-}
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -119,5 +111,4 @@ document.addEventListener("DOMContentLoaded", () => {
     productFavourite();
     headerSocials();
     saiSliderSocials();
-    headerUser();
 }); 
