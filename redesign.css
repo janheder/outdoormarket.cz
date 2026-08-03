@@ -8197,3 +8197,11 @@ h4.homepage-group-title,
     top: 50% !important;
     transform: translateY(-50%) !important;
 }
+@media screen and (max-width: 767px) {
+   #productDiscussion {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}
