@@ -7568,6 +7568,7 @@ strong {
 @media screen and (max-width: 479px) {
     .p-detail .add-to-cart .quantity {
         width: 100%;
+        margin: 0;
     }
 }
 
