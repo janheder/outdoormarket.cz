@@ -8192,3 +8192,7 @@ h4.homepage-group-title,
 .flag-discount .difference-info{
     opacity: .8
 }
+#sai--code__category .swiper-button-next, #sai--code__category .swiper-button-prev {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
