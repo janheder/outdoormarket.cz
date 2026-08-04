@@ -2661,7 +2661,7 @@ h4.homepage-group-title,
 .in-kosik.ordering-process .cart-row>div.col-md-8 {
     width: 100%;
     padding: 60px;
-    border: 1px solid var(--border);
+    border: 0px solid var(--border);
     border-bottom: 0;
     padding-bottom: 0;
     background: white;
@@ -2685,7 +2685,7 @@ h4.homepage-group-title,
 
 .in-kosik.ordering-process .cart-row>div.col-md-4 {
     width: 100%;
-    border: 1px solid var(--border);
+    border: 0px solid var(--border);
     border-top: 0;
     padding: 60px;
     padding-top: 0;
