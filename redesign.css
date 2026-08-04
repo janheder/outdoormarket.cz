@@ -8205,3 +8205,20 @@ h4.homepage-group-title,
         margin-bottom: 10px;
     }
 }
+
+html[lang="sk"] .newsletter .newsletter-header::after {
+    content: "Odoberajte aktuálne informácie, oznámenia o zľavách a novinky na Váš email.";
+
+}
+html[lang="sk"] .in-kosik.ordering-process .cart-row>div.col-md-8 .cart-content::before {
+    content: "Nákupný košík";
+}
+html[lang="sk"] .p-info-wrapper .availability-value>span.default-variant .availability-label::before {
+    content: "Pre zobrazenie dostupnosti";
+
+}
+@media screen and (max-width: 767px) {
+       html[lang="sk"] .dm-coupon-div>div .action-dm-price::after {
+        content: " s kódom ";
+    }
+}

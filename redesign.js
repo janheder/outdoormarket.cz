@@ -1,3 +1,5 @@
+const isSk = (document.documentElement.lang || 'cs').toLowerCase().startsWith('sk');
+
 function headerPhone() {
     const elementKPresunu = document.querySelector('.top-navigation-bar .top-navigation-contacts');
     const novyRodic = document.querySelector('.header-top');
@@ -7,20 +9,23 @@ function headerPhone() {
         const span = phoneLink?.querySelector('span');
         
         if (phoneLink && span) {
-            // Vytáhneme z původního textu pouze číslice (např. "778037100")
-            const matches = span.textContent.match(/\d+/);
-            
+            const matches = span.textContent.match(/\d+/g);
             if (matches) {
-                const cislo = matches[0]; // Získáme řetězec číslic
-                
-                // Ověříme, že máme standardní 9místné české číslo
+                const cislo = matches.join('');
                 if (cislo.length === 9) {
-                    // Rozdělíme na trojice: 778, 037, 100
-                    const naformatovaneCislo = `+420 ${cislo.substring(0, 3)} ${cislo.substring(3, 6)} ${cislo.substring(6, 9)}`;
+                    // Nastavení proměnných podle jazyka
+                    let prefix = '+420';
+                    let ariaLabelPrefix = 'Telefon';
+
+                    if (isSk) {
+                        prefix = '+421';
+                        ariaLabelPrefix = 'Telefón';
+                    }
+
+                    const naformatovaneCislo = `${prefix} ${cislo.substring(0, 3)} ${cislo.substring(3, 6)} ${cislo.substring(6, 9)}`;
                     
-                    // Upravíme vizuální text i atribut pro přístupnost
                     span.textContent = naformatovaneCislo;
-                    phoneLink.setAttribute('aria-label', `Telefon: ${naformatovaneCislo}`);
+                    phoneLink.setAttribute('aria-label', `${ariaLabelPrefix}: ${naformatovaneCislo}`);
                 }
             }
         }
@@ -28,14 +33,19 @@ function headerPhone() {
     }
 }
 
-
 function cartHeaderStep() {
     const cartHeader = document.querySelector('.ordering-process .cart-header');
     if (cartHeader) {
+        let text = 'Dokončení objednávky';
+
+        if (isSk) {
+            text = 'Dokončenie objednávky';
+        }
+
         cartHeader.append(
             Object.assign(document.createElement('li'), {
                 className: 'step step-4',
-                innerHTML: `<strong><span>Dokončení objednávky</span></strong>`
+                innerHTML: `<strong><span>${text}</span></strong>`
             })
         );
     }
