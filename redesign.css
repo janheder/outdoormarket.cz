@@ -1607,7 +1607,8 @@ body:not(.type-index) .products-block>div {
     display: none;
 }
 
-.custom-footer__banner2881 {
+.custom-footer__banner2881,
+.custom-footer__banner6431 {
     display: flex;
     width: 100% !important;
     padding: 0 !important;
@@ -1618,7 +1619,11 @@ body:not(.type-index) .products-block>div {
     width: 100% !important;
     overflow: visible;
 }
-
+.custom-footer__banner6431 .banner,
+.custom-footer__banner6431 .banner-wrapper {
+    width: 100% !important;
+    overflow: visible;
+}
 #newsletterSection {
     border: 0;
     margin-top: 0px;
