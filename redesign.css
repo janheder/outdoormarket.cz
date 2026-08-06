@@ -8234,3 +8234,28 @@ html[lang="sk"] .p-info-wrapper .availability-value>span.default-variant .availa
         content: " s kódom ";
     }
 }
+
+@media (min-width: 768px) {
+.submenu-arrow{
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    background-image: url("https://outdoormarket-cz.pages.dev/icons/cheveron-down.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    margin-left: 10px;
+}
+.submenu-arrow::after{
+    content: none;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .navigation-in ul li.ext.exp > a .submenu-arrow, .navigation-in ul li.ext.exp > div > .submenu-arrow {
+        border-right: 0px;
+    }
+}
