@@ -17,13 +17,14 @@ function headerPhone() {
                     let prefix = '+420';
                     let ariaLabelPrefix = 'Telefon';
 
-                    if (isSk) {
+                    if (typeof isSk !== 'undefined' && isSk) {
                         prefix = '+421';
                         ariaLabelPrefix = 'Telefón';
                     }
 
                     const naformatovaneCislo = `${prefix} ${cislo.substring(0, 3)} ${cislo.substring(3, 6)} ${cislo.substring(6, 9)}`;
                     
+                    // Přepíše kompletní text ve spanu i aria-labelu pouze na naformátované číslo
                     span.textContent = naformatovaneCislo;
                     phoneLink.setAttribute('aria-label', `${ariaLabelPrefix}: ${naformatovaneCislo}`);
                 }
