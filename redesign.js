@@ -9,11 +9,13 @@ function headerPhone() {
         const span = phoneLink?.querySelector('span');
         
         if (phoneLink && span) {
-            const matches = span.textContent.match(/\d+/g);
+            // Vezme pouze text před první závorkou "("
+            const cistyText = span.textContent.split('(')[0];
+            const matches = cistyText.match(/\d+/g);
+            
             if (matches) {
                 const cislo = matches.join('');
                 if (cislo.length === 9) {
-                    // Nastavení proměnných podle jazyka
                     let prefix = '+420';
                     let ariaLabelPrefix = 'Telefon';
 
@@ -24,7 +26,7 @@ function headerPhone() {
 
                     const naformatovaneCislo = `${prefix} ${cislo.substring(0, 3)} ${cislo.substring(3, 6)} ${cislo.substring(6, 9)}`;
                     
-                    // Přepíše kompletní text ve spanu i aria-labelu pouze na naformátované číslo
+                    // Nastaví čisté naformátované číslo
                     span.textContent = naformatovaneCislo;
                     phoneLink.setAttribute('aria-label', `${ariaLabelPrefix}: ${naformatovaneCislo}`);
                 }
