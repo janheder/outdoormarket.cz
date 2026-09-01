@@ -531,7 +531,7 @@ h4.homepage-group-title,
 }
 
 .custom-footer__banner6991,
-.custom-footer__banner7561  {
+.custom-footer__banner7561 {
     display: flex;
     width: 100% !important;
     padding: 0 !important;
@@ -1472,7 +1472,7 @@ body:not(.type-index) .products-block>div {
 
 
 .custom-footer__banner5311,
-.custom-footer__banner8381  {
+.custom-footer__banner8381 {
     display: flex;
     width: 100% !important;
     padding: 0 !important;
@@ -1621,11 +1621,13 @@ body:not(.type-index) .products-block>div {
     width: 100% !important;
     overflow: visible;
 }
+
 .custom-footer__banner6431 .banner,
 .custom-footer__banner6431 .banner-wrapper {
     width: 100% !important;
     overflow: visible;
 }
+
 #newsletterSection {
     border: 0;
     margin-top: 0px;
@@ -8114,52 +8116,68 @@ h4.homepage-group-title,
     padding: 60px 0;
     margin: 0 auto;
 }
-.in-registrace .content-inner h1{
+
+.in-registrace .content-inner h1 {
     display: none;
 }
+
 .sign .content-inner {
     max-width: 1100px;
     margin: 0 auto;
 }
-.validator-msg.msg-error, .validator-msg.msg-warning, .js-validator-msg.msg-error, .validator-msg.msg-info{
+
+.validator-msg.msg-error,
+.validator-msg.msg-warning,
+.js-validator-msg.msg-error,
+.validator-msg.msg-info {
     font-size: 15px;
 }
-.top-navigation-contacts .top-nav-button-login{
+
+.top-navigation-contacts .top-nav-button-login {
     display: none !important;
 }
+
 .position--benefitCategory {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-gap: 20px;
     padding: 30px 0;
 }
+
 @media (max-width: 1000px) {
     .position--benefitCategory {
-      grid-template-columns: repeat(2, minmax(0, 1fr));  }
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
+
 @media (max-width: 767px) {
-    .position--benefitCategory{
+    .position--benefitCategory {
         display: none;
     }
 }
-.category__secondDescription{
+
+.category__secondDescription {
     font-size: 16px;
 }
 
-.ordering-process.in-dekujeme #content-wrapper::before{
+.ordering-process.in-dekujeme #content-wrapper::before {
     content: none;
 }
-.id--15 .cart-table .p-name{
-        font-size: 16px;
+
+.id--15 .cart-table .p-name {
+    font-size: 16px;
 }
-.id--15 .cart-table .p-quantity{
-          font-size: 16px;
+
+.id--15 .cart-table .p-quantity {
+    font-size: 16px;
 }
+
 .id--15 .co-box {
     display: flex;
     flex-direction: column;
 }
-.order-complete-links .btn.btn-primary{
+
+.order-complete-links .btn.btn-primary {
 
     font-family: var(--font-headings) !important;
     font-size: 18px !important;
@@ -8167,50 +8185,63 @@ h4.homepage-group-title,
     font-weight: 600 !important;
     border-radius: var(--border-radius);
 }
-.order-complete-links .btn.btn-primary:hover{
+
+.order-complete-links .btn.btn-primary:hover {
     background: var(--dark);
 }
-.detail-parameters .question-tooltip{
+
+.detail-parameters .question-tooltip {
     order: 99;
 }
-.detail-parameters  .row-header-label.has-tooltip{
+
+.detail-parameters .row-header-label.has-tooltip {
     display: flex;
     align-items: center;
 }
-#sai--code__product_cross_sell .products-block{
+
+#sai--code__product_cross_sell .products-block {
     border: 0 !important;
 }
-#sai--code__product_cross_sell .sai-ProductBox{
+
+#sai--code__product_cross_sell .sai-ProductBox {
     border: 0 !important;
 }
-#content #sai--code__product_related>div, 
-#content  #sai--code__product_cross_sell>div {
+
+#content #sai--code__product_related>div,
+#content #sai--code__product_cross_sell>div {
     border: 0 !important;
 }
-.sai-ProductBox{
-     border: 0 !important;
+
+.sai-ProductBox {
+    border: 0 !important;
 }
+
 .cely-clanek {
     font-size: 16px;
 }
 
-.p .flags-extra .flag.flag-discount{
+.p .flags-extra .flag.flag-discount {
     max-height: 60px;
 }
+
 @media screen and (max-width: 767px) {
-.navigation-home-icon-wrapper::before{
-    content: none;
+    .navigation-home-icon-wrapper::before {
+        content: none;
+    }
 }
-}
-.flag-discount .difference-info{
+
+.flag-discount .difference-info {
     opacity: .8
 }
-#sai--code__category .swiper-button-next, #sai--code__category .swiper-button-prev {
+
+#sai--code__category .swiper-button-next,
+#sai--code__category .swiper-button-prev {
     top: 50% !important;
     transform: translateY(-50%) !important;
 }
+
 @media screen and (max-width: 767px) {
-   #productDiscussion {
+    #productDiscussion {
         max-width: 100%;
         width: 100%;
         padding: 0;
@@ -8222,40 +8253,55 @@ html[lang="sk"] .newsletter .newsletter-header::after {
     content: "Odoberajte aktuálne informácie, oznámenia o zľavách a novinky na Váš email.";
 
 }
+
 html[lang="sk"] .in-kosik.ordering-process .cart-row>div.col-md-8 .cart-content::before {
     content: "Nákupný košík";
 }
+
 html[lang="sk"] .p-info-wrapper .availability-value>span.default-variant .availability-label::before {
     content: "Pre zobrazenie dostupnosti";
 
 }
+
 @media screen and (max-width: 767px) {
-       html[lang="sk"] .dm-coupon-div>div .action-dm-price::after {
+    html[lang="sk"] .dm-coupon-div>div .action-dm-price::after {
         content: " s kódom ";
     }
 }
 
 @media (min-width: 768px) {
-.submenu-arrow{
-    width: 9px;
-    height: 9px;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    background-image: url("https://outdoormarket-cz.pages.dev/icons/cheveron-down.svg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.3;
-    margin-left: 10px;
-}
-.submenu-arrow::after{
-    content: none;
-}
+    .submenu-arrow {
+        width: 9px;
+        height: 9px;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        background-image: url("https://outdoormarket-cz.pages.dev/icons/cheveron-down.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+        margin-left: 10px;
+    }
+
+    .submenu-arrow::after {
+        content: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    .navigation-in ul li.ext.exp > a .submenu-arrow, .navigation-in ul li.ext.exp > div > .submenu-arrow {
+
+    .navigation-in ul li.ext.exp>a .submenu-arrow,
+    .navigation-in ul li.ext.exp>div>.submenu-arrow {
         border-right: 0px;
     }
+}
+
+#content #sai--code__product_related>div {
+    border-top: 3px solid var(--light) !important;
+    margin-top: 30px;
+}
+
+[id^=sai--code__] .sai-ProductWidget {
+    animation: none;
 }
