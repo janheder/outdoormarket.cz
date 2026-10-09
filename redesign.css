@@ -8320,3 +8320,8 @@ html[lang="sk"] .p-info-wrapper .availability-value>span.default-variant .availa
        display: none !important;
     }
 }
+@media (max-width: 1400px) {
+.navigation-in ul li a {
+    font-size: 15px;
+}
+}
